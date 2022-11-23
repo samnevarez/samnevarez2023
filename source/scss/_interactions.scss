@@ -1,0 +1,63 @@
+// Button styles
+
+.btn {
+  padding: .25rem;
+  font-family: $secondary-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  border: 0;
+  box-shadow: 0 22px 12px -14px rgba(0, 0, 0, 0.2) !important;
+  transition: all 2s ease 0s;
+  outline: none;
+  border-radius: 0rem;
+  border-color: none;
+}
+
+.btn-primary {
+  background: $primary;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+    background-color: lighten($primary, 10%);
+    box-shadow: 0 14px 6px -8px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(-2px);
+    transition-duration: .5s;
+  }
+  &:focus {
+    color: $white;
+    background-color: lighten($primary, 10%);
+    box-shadow: 0 16px 6px -8px rgba(0, 0, 0, 0.3) !important;
+    outline: none;
+    
+  }
+  &:active {
+    color: $white;
+    background-color: darken($primary, 10%) !important;
+    box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.5);
+    transform: translateY(1px);
+    transition-duration: .1s;
+    transition-delay: 0s;
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active {
+  border-color: none;
+}
+
+// Link Styles
+
+a {
+  color: $secondary;
+  text-decoration: none;
+  &:hover {
+    color: lighten($secondary, 20%);
+    text-decoration: underline;
+  }
+}
+
+#projects{
+  .btn {
+    padding: 1rem;
+  };
+}

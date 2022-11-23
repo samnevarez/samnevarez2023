@@ -1,0 +1,120 @@
+/* -- Margin and Padding Perameters-- */
+$margin-padding: (margin, padding); // margin: 0; padding: 0;
+$loc: (top, right, bottom, left); // margin-top, padding-top, etc.
+
+/* -- MOBILE UNIT-- */
+$ecRem-m: 0.1875; // mobile unit (75% of Desktop size)
+
+/* -- Desktop UNIT -- */
+$ecRem-d: 0.25; // desktop unit (25% of 16px)
+
+/* -- MOBILE -- El Castillo Design System --*/
+
+@media screen and (max-width: 992px) {
+
+ @for $i from 0 through 24 {
+
+  // values for top and bottom (y axis)
+  @each $mp in $margin-padding {
+   .ec#{str-slice($mp, 0, 1)}y-#{$i} {
+    #{$mp}: #{$i * $ecRem-m}rem 0 !important;
+   }
+  }
+
+  // values for left and right (x axis)
+  @each $mp in $margin-padding {
+   .ec#{str-slice($mp, 0, 1)}x-#{$i} {
+    #{$mp}: 0 #{$i * $ecRem-m}rem !important;
+   }
+  }
+
+  // values for all 4 sides
+  @each $mp in $margin-padding {
+   .ec#{str-slice($mp, 0, 1)}-#{$i} {
+    #{$mp}: #{$i * $ecRem-m}rem !important;
+   }
+  }
+
+  // values for top, right, bottom, left
+  @each $mp in $margin-padding {
+   @each $l in $loc {
+    .ec#{str-slice($mp, 0, 1)}#{str-slice($l, 0, 1)}-#{$i} {
+     #{$mp}-#{$l}: #{$i * $ecRem-m}rem !important;
+    }
+   }
+  }
+ }
+}
+
+/* -- DESKTOP -- El Castillo Design System --*/
+
+@for $i from 0 through 24 {
+
+ // values for top and bottom (y axis)
+ @each $mp in $margin-padding {
+  .ec#{str-slice($mp, 0, 1)}y-#{$i} {
+   #{$mp}: #{$i * $ecRem-d}rem 0 !important;
+  }
+ }
+
+ // values for left and right (x axis)
+ @each $mp in $margin-padding {
+  .ec#{str-slice($mp, 0, 1)}x-#{$i} {
+   #{$mp}: 0 #{$i * $ecRem-d}rem !important;
+  }
+ }
+
+ // values for all 4 sides
+ @each $mp in $margin-padding {
+  .ec#{str-slice($mp, 0, 1)}-#{$i} {
+   #{$mp}: #{$i * $ecRem-d}rem !important;
+  }
+ }
+
+ // values for top, right, bottom, left
+ @each $mp in $margin-padding {
+  @each $l in $loc {
+   .ec#{str-slice($mp, 0, 1)}#{str-slice($l, 0, 1)}-#{$i} {
+    #{$mp}-#{$l}: #{$i * $ecRem-d}rem !important;
+   }
+  }
+ }
+}
+
+/* -- SPECIFICTY TO MOBILE ONLY --*/
+
+@media screen and (max-width: 992px) {
+
+ @for $i from 0 through 24 {
+
+  // values for top and bottom (y axis)
+  @each $mp in $margin-padding {
+   .ec#{str-slice($mp, 0, 1)}y-m-#{$i} {
+    #{$mp}: #{$i * $ecRem-m}rem 0 !important;
+   }
+  }
+
+  // values for left and right (x axis)
+  @each $mp in $margin-padding {
+   .ec#{str-slice($mp, 0, 1)}x-m-#{$i} {
+    #{$mp}: 0 #{$i * $ecRem-m}rem !important;
+   }
+  }
+
+  // values for all 4 sides
+  @each $mp in $margin-padding {
+   .ec#{str-slice($mp, 0, 1)}-m-#{$i} {
+    #{$mp}: #{$i * $ecRem-m}rem !important;
+   }
+  }
+
+  // values for top, right, bottom, left
+  @each $mp in $margin-padding {
+   @each $l in $loc {
+    .ec#{str-slice($mp, 0, 1)}#{str-slice($l, 0, 1)}-m-#{$i} {
+     #{$mp}-#{$l}: #{$i * $ecRem-m}rem !important;
+    }
+   }
+  }
+ }
+}

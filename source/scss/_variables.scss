@@ -1,0 +1,31 @@
+// Variables
+
+$white: #fff !default;
+$black: #111 !default;
+$primary: #0000FF !default;
+
+$gray-100: lighten(#111, 90%) !default;
+$gray-200: lighten(#111, 80%) !default;
+$gray-300: lighten(#111, 70%) !default;
+$gray-400: lighten(#111, 60%) !default;
+$gray-500: lighten(#111, 50%) !default;
+$gray-600: lighten(#111, 40%) !default;
+$gray-700: lighten(#111, 30%) !default;
+$gray-800: lighten(#111, 20%) !default;
+$gray-900: lighten(#111, 10%) !default;
+
+$primary-dark-100: darken($primary, 50%) !default;
+$primary-dark-200: darken($primary, 45%) !default;
+$primary-dark-300: darken($primary, 40%) !default;
+$primary-dark-400: darken($primary, 35%) !default;
+$primary-dark-500: darken($primary, 30%) !default;
+$primary-dark-600: darken($primary, 25%) !default;
+$primary-dark-700: darken($primary, 20%) !default;
+$primary-dark-800: darken($primary, 15%) !default;
+$primary-dark-900: darken($primary, 10%) !default;
+
+/* $secondary #8080ff */
+$secondary: lighten($primary, 55%) !default;
+
+$primary-font: 'Barlow Condensed', sans-serif;
+$secondary-font: 'Lato', sans-serif;

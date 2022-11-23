@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ec-email</title>
+    <g id="ec-email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="2" y="38" width="14" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(9.000000, 3.000000) scale(1, -1) translate(-9.000000, -3.000000) " x="2" y="2" width="14" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="26" y="38" width="14" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(33.000000, 3.000000) scale(1, -1) translate(-33.000000, -3.000000) " x="26" y="2" width="14" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="18" y="38" width="6" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(21.000000, 3.000000) scale(1, -1) translate(-21.000000, -3.000000) " x="18" y="2" width="6" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="14" y="36" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(15.000000, 5.000000) scale(1, -1) translate(-15.000000, -5.000000) " x="14" y="4" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="26" y="36" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(27.000000, 5.000000) scale(1, -1) translate(-27.000000, -5.000000) " x="26" y="4" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="2" y="4" width="2" height="8"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(39.000000, 8.000000) scale(-1, 1) translate(-39.000000, -8.000000) " x="38" y="4" width="2" height="8"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="2" y="30" width="2" height="8"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(39.000000, 34.000000) scale(-1, 1) translate(-39.000000, -34.000000) " x="38" y="30" width="2" height="8"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="4" y="10" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(37.000000, 11.000000) scale(-1, 1) translate(-37.000000, -11.000000) " x="36" y="10" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="4" y="30" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(37.000000, 31.000000) scale(-1, 1) translate(-37.000000, -31.000000) " x="36" y="30" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="14" y="34" width="14" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(21.000000, 7.000000) scale(1, -1) translate(-21.000000, -7.000000) " x="14" y="6" width="14" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="30" y="34" width="6" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(33.000000, 7.000000) scale(1, -1) translate(-33.000000, -7.000000) " x="30" y="6" width="6" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="6" y="34" width="6" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(9.000000, 7.000000) scale(1, -1) translate(-9.000000, -7.000000) " x="6" y="6" width="6" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="6" y="10" width="2" height="10"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(35.000000, 15.000000) scale(-1, 1) translate(-35.000000, -15.000000) " x="34" y="10" width="2" height="10"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="6" y="22" width="2" height="10"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" transform="translate(35.000000, 27.000000) scale(-1, 1) translate(-35.000000, -27.000000) " x="34" y="22" width="2" height="10"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="2" y="14" width="2" height="14"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="38" y="14" width="2" height="14"></rect>
+        <path d="M21,21 L31,16 L31,28 L11,28 L11,16 L21,21 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <polygon id="Rectangle" fill="#FFFFFF" transform="translate(21.000000, 13.500000) scale(1, -1) translate(-21.000000, -13.500000) " points="11 11 31 11 21 16"></polygon>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="11" y="30" width="3" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="28" y="30" width="3" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="16" y="30" width="10" height="2"></rect>
+    </g>
+</svg>

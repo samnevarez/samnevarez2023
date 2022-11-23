@@ -1,0 +1,22 @@
+.projects-section {
+  .featured-text {
+    color: $white;
+    padding: 2rem;
+    @media (min-width: 320px) {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid $primary-dark-600;
+    }
+  }
+  .project-text {
+    padding: 2rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 2rem;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+}
