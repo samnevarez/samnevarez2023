@@ -1,18 +1,5 @@
-@charset "UTF-8";
-@import 'animations.scss';
-@import 'variables.scss';
-@import 'bootstrap-css';
-@import 'mixins.scss';
-@import 'navbar.scss';
-@import 'masthead.scss';
-@import 'interactions.scss';
-@import 'about.scss';
-@import 'projects.scss';
-@import 'contact.scss';
-@import 'el-castillo-design-system.scss';
-
 body {
-  background-color: red;
+  background-color: $primary-dark-200;
   font-family: $secondary-font;
   font-weight: normal;
   
@@ -22,10 +9,6 @@ body {
   letter-spacing: 0.0625em;
   line-height: 1.5rem;
   }
-}
-
-.text-white-75 {
-  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 @for $i from 1 through 4 {
