@@ -1,0 +1,57 @@
+@media (min-width: 992px) {
+    #mainNav {
+      font-family: $secondary-font;
+      height: 56px;
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: $primary-dark-300;
+      border-bottom: 1px solid $primary-dark-800;
+      transition: background-color 0.3s ease-in-out;
+      box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
+      .navbar-brand {
+      padding: .5rem 0;
+      color: darken($white, 20%);
+        &:hover{
+          color: $secondary;
+        }
+      }
+    }
+    #mainNav .nav-link {
+      transition: none;
+      padding: 1rem 1.5rem .8rem 1.5rem;
+      color: darken($white, 20%);
+      border-bottom: 0.25rem solid transparent;
+      transition: .5s;
+    }
+    #mainNav .nav-link:hover {
+      color: $secondary;
+    }
+    #mainNav .nav-link:active {
+      color: $secondary;
+    }
+    #mainNav.navbar-shrink {
+      background-color: $primary-dark-200;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: darken($white, 20%);
+      &:hover{
+        color: $secondary;
+      }
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: darken($white, 20%);
+      padding: 1rem 1.5rem .8rem 1.5rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: $secondary;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: $secondary;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: $secondary;
+      outline: none;
+      border-bottom: 0.25rem solid $secondary;
+    }
+  }

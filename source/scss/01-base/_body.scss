@@ -1,0 +1,77 @@
+body {
+  background-color: $primary-dark-200;
+  font-family: $secondary-font;
+  font-weight: normal;
+  
+  p {
+  font-size: .875rem;
+  color: rgba(255, 255, 255, 0.75) !important;
+  letter-spacing: 0.0625em;
+  line-height: 1.5rem;
+  }
+}
+
+.bg-black {
+  background-color: $primary-dark-400 !important;
+}
+
+.bg-dark {
+  background-color: $gray-900 !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+footer {
+  padding: 3rem 0;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.ecborder{
+  border: 1px solid $primary-dark-600;
+}
+
+@media (max-width: 992px) {
+  .mb-mobile-2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section .card{
+  border: 0;
+  border-bottom: .25rem solid $primary-dark-600;
+}
+
+.contact-section .card hr{
+  border: 0;
+  border-bottom: .25rem solid $primary-dark-600;
+}
+
+.rotate-90-deg {
+  transform: rotate(90deg);
+}
+
+.rotate-180-deg{
+  transform: rotate(180deg);
+}
+
+@media (max-width: 992px) {
+  .rotate-180-deg{
+    transform: rotate(0deg);
+  }
+}
