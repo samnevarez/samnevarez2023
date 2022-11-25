@@ -1,30 +1,50 @@
 body {
   background-color: $primary-dark-200;
   font-family: $secondary-font;
-  font-weight: normal;
   
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+    font-family: $primary-font;
+    font-weight: 400;
+    text-transform: uppercase;    
+  }
+  
+  h1 {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+    line-height: 3.75rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  
+  h4 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  h6 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   p {
-  font-size: .875rem;
-  color: rgba(255, 255, 255, 0.75) !important;
-  letter-spacing: 0.0625em;
+  font-family: $primary;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.80);
   line-height: 1.5rem;
   }
-}
-
-.bg-black {
-  background-color: $primary-dark-400 !important;
-}
-
-.bg-dark {
-  background-color: $gray-900 !important;
-}
-
-.bg-primary {
-  background-color: $primary !important;
-}
-
-.text-primary {
-  color: $primary !important;
 }
 
 footer {

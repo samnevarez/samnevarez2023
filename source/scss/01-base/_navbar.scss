@@ -1,7 +1,7 @@
 /* mobile style */
 #mainNav {
   min-height: 56px;
-  background-color: $primary-dark-200;
+  background: linear-gradient(to right, $primary-dark-500, $primary-dark-300);
   border-radius: 0;
   border-bottom: 1px solid $primary-dark-700;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;

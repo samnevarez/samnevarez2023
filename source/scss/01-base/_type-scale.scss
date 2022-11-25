@@ -1,23 +1,22 @@
+// @for $i from 1 through 6 {
+//   h#{7 - $i} {
+//       color: $white;
+//       font-family: $primary-font;
+//       font-weight: 400;
+//       line-height: $i * 8px + 8px;
+//       text-transform: uppercase;
+//   }
+// }
+
+@media screen and (max-width: 768px) {
 @for $i from 1 through 4 {
-    h#{5 - $i} {
-        color: $white;
-        font-size: $i * 1rem;
-        font-family: $primary-font;
-        font-weight: 400;
-        line-height: $i * 1rem + .375rem;
-        text-transform: uppercase;
-    }
+  h#{5 - $i} {
+      font-size: $i * .75rem;
+      color: $white;
+      font-family: $primary-font;
+      font-weight: 400;
+      line-height: $i * 1rem - .25rem;
+      text-transform: uppercase;
   }
-  
-  @media screen and (max-width: 768px) {
-    @for $i from 1 through 4 {
-      h#{5 - $i} {
-          color: $white;
-          font-size: $i * .75rem;
-          font-family: $primary-font;
-          font-weight: 400;
-          line-height: $i * .75rem + .25rem;
-          text-transform: uppercase;
-      }
-    }
-  }
+}
+}

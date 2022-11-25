@@ -1,17 +1,55 @@
+#projects {
+
+  .project-card {
+    background: linear-gradient(to bottom right, $primary-dark-600, $primary-dark-300);
+    color: $white;
+    border-bottom: 4px solid $primary-dark-800;
+    border-radius: 8px;
+    padding: 16px;
+
+    img {
+      border-radius: 4px;
+      box-shadow: 8px $black;
+      display: block;
+    }
+
+    h3 {
+      color: $white;
+    }
+
+    p {
+      color: $white;
+    }
+  }
+  .btn {
+    padding: 1rem;
+    background: linear-gradient(to right, $primary-dark-900, $primary-dark-700);
+    border-right: 2px solid $primary;
+
+    &:hover {
+      background: linear-gradient(to right, $primary-dark-900, $primary-dark-900);
+    }
+  }
+}
+
 .projects-section {
   .featured-text {
     color: $white;
-    padding: 2rem;
+    padding: 1rem;
     @media (min-width: 320px) {
       padding: 0 0 0 2rem;
       border-left: 0.5rem solid $primary-dark-600;
     }
   }
+
   .project-text {
-    padding: 2rem;
-    font-size: 90%;
+    padding: 1rem;
+    @media screen and (max-width: 768px){
+        padding: 0px;
+      }
+
     @media (min-width: 992px) {
-      padding: 2rem;
+      padding: 1rem;
       hr {
         border-color: $primary;
         border-width: .25rem;

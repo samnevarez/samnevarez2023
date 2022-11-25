@@ -1,0 +1,20 @@
+
+.card {
+    background: linear-gradient(to bottom right, $primary-dark-600, $primary-dark-400);
+    border-radius: 8px;
+
+    a {
+        color: rgb(255, 224, 51);
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(255, 224, 51);
+            text-decoration: underline;
+        }
+      }
+
+    .card-icons {
+    width: 56px;
+    height: auto;
+    }
+}

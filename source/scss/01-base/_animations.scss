@@ -49,27 +49,27 @@
 }
 
 .header-animation-1 {
-  animation: fadeInUp 1s ease-in-out 0s;
+  animation: fadeInUp 1s ease-in-out .75s;
   animation-fill-mode: backwards;
 }
 
 .header-animation-2 {
-  animation: fadeInUp 1s ease-in-out .5s;
+  animation: fadeInUp 1s ease-in-out 1s;
   animation-fill-mode: backwards;
 }
 
 .header-animation-3 {
-  animation: fadeIn 1s ease-in-out 1s;
-  animation-fill-mode: backwards;
-}
-
-.header-animation-4 {
   animation: fadeIn 1s ease-in-out 1.5s;
   animation-fill-mode: backwards;
 }
 
+.header-animation-4 {
+  animation: fadeIn 1s ease-in-out 2s;
+  animation-fill-mode: backwards;
+}
+
 .header-animation-5 {
-  animation: flipInX 1s ease-in-out 2s;
+  animation: flipInX 1s ease-in-out 2.5s;
   animation-fill-mode: backwards;
 }
 

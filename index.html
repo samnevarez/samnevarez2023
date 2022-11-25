@@ -2,7 +2,11 @@
 <html lang="en">
 <!-- Head -->
 <head>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" >
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=optional" >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=optional" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TK7VWZ9VVG"></script>
@@ -34,6 +38,11 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -41,153 +50,6 @@
 
   <!-- Jquery easing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- Custom fonts for this template -->
-  <style>
-      /* barlow-condensed-regular - latin */
-    @font-face {
-      font-family: 'Barlow Condensed';
-      font-style: normal;
-      font-weight: 400;
-      src: url('assets/barlow-condensed-v5-latin-regular.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/barlow-condensed-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/barlow-condensed-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/barlow-condensed-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
-          url('assets/barlow-condensed-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/barlow-condensed-v5-latin-regular.svg#BarlowCondensed') format('svg'); /* Legacy iOS */
-    }
-    /* lato-100 - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 100;
-      src: url('assets/lato-v20-latin-100.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-100.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-100.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-100italic - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: italic;
-      font-weight: 100;
-      src: url('assets/lato-v20-latin-100italic.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-100italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-100italic.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-100italic.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-100italic.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-100italic.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-300 - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 300;
-      src: url('assets/lato-v20-latin-300.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-300.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-300.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-300italic - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: italic;
-      font-weight: 300;
-      src: url('assets/lato-v20-latin-300italic.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-300italic.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-300italic.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-regular - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 400;
-      src: url('assets/lato-v20-latin-regular.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-italic - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: italic;
-      font-weight: 400;
-      src: url('assets/lato-v20-latin-italic.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-italic.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-italic.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-700 - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 700;
-      src: url('assets/lato-v20-latin-700.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-700.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-700.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-700italic - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: italic;
-      font-weight: 700;
-      src: url('assets/lato-v20-latin-700italic.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-700italic.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-700italic.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-900 - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 900;
-      src: url('assets/lato-v20-latin-900.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-900.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-    /* lato-900italic - latin */
-    @font-face {
-      font-family: 'Lato';
-      font-style: italic;
-      font-weight: 900;
-      src: url('assets/lato-v20-latin-900italic.eot'); /* IE9 Compat Modes */
-      src: local(''),
-          url('assets/lato-v20-latin-900italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/lato-v20-latin-900italic.woff2') format('woff2'), /* Super Modern Browsers */
-          url('assets/lato-v20-latin-900italic.woff') format('woff'), /* Modern Browsers */
-          url('assets/lato-v20-latin-900italic.ttf') format('truetype'), /* Safari, Android, iOS */
-          url('assets/lato-v20-latin-900italic.svg#Lato') format('svg'); /* Legacy iOS */
-    }
-  </style>
 
 </head>
 
@@ -214,6 +76,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#teams">Team Principles</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -223,11 +88,11 @@
   <header id="home" class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="col-xl-6 p-md-0 ecpx-m-2">
-        <h1 class="ecmb-2 header-animation-1 text-uppercase">SAM NEVAREZ</h1>
+        <h1 class="ecmb-4 ecmb-m-3 header-animation-1 text-uppercase">SAM NEVAREZ</h1>
         <h3 class="ecmb-12 header-animation-2">UI/UX Designer</h3>
         <p class="ecmb-2 header-animation-3 font-weight-bold text-white">LOCATION: RIVERSIDE COUNTY, CA</p>
         <p class="ecmb-0 header-animation-4">My mission is to utilize UX Strategy and Frontend knowldege to strengthen the relationship between the user and product.</p>
-        <a href="#about" class="ecmt-8 header-animation-5 btn btn-primary btn-project js-scroll-trigger"><img class="rotate-90-deg" class="svg-primary" src="/img/ec-x.svg" /></a>
+        <a href="#about" class="ecmt-8 py-3 px-3 header-animation-5 btn btn-primary btn-project js-scroll-trigger">EXPLORE ↓</a>
       </div>
     </div>
   </header>
@@ -237,17 +102,17 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-4 col-lg-4">
-          <img class="img-fluid ecmb-m-8" src="img/profile-picture.jpg" alt="">
+          <img class="img-fluid ecmb-m-8" src="img/profile-picture-d.jpg" alt="">
         </div>
         <div class="col-lg-8 mx-auto">
-          <h2 class="ecmt-0 ecmb-8 ecmb-m-8">ABOUT ME / 2010 - 2021</h2>
+          <h2 class="ecmt-0 ecmb-8 ecmb-m-8">ABOUT ME / 2010 - 2022</h2>
           <p class="ecmb-6">
             Over the years, my exposure to web design and development have transformed into a fulfilling career and passion. As a hybrid designer, I’ve had the opportunity to bridge efforts between design and development to achieve a delightful user experience.
             When I unplug, I seek camping, physical training, and producing film scores. From time to time, I pursue the existential pleasures of eating tacos.            
           </p>
           <h3 class="ecmb-6">Why the Mayan pyramid?</h3>
           <p class="ecmb-0">
-            After visiting Chichén Itzá in Mexico's Yucatán, I was intrigued with Mayan architecture. The Mayans were known for incorporating mathematics and spatial awareness within their architecture. The shadows on these structures helped the Mayans determine the proper time to cultivate crops. Today, the ruins demonstrate what it means to design methodically and with intention.
+            The photo of the pyramid above was taken when I visted Chichén Itzá in Mexico's Yucatán. During my visit, I was very intrigued with Mayan architecture. The Mayans were known for incorporating mathematics and spatial awareness within their designs. The shadows on these structures helped the Mayans determine the proper time to cultivate crops and used these structures as centeral points to gather. Today, the ruins demonstrate what it means to design methodically and with intention. This experience inspired me to design and code my own porfolio to resemble an ancient time. I created my own icons and animated background effects of the pyrimid to personalize my site.
           </p>
         </div>
       </div>
@@ -261,20 +126,20 @@
       <div class="row">
 
         <div class="col-md-4 ecmb-m-6">
-          <div class="card py-4 h-100 bg-black">
+          <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <div class="ecmb-2"><img src="img/ec-linkedin.svg" /></div>
-              <h4 class="ecmb-6 text-uppercase">Linkedin</h4>
+              <div class=""><img class="card-icons" src="img/ec-linkedin.svg" /></div>
+              <h3 class="ecmy-4 text-uppercase">Linkedin</h3>
               <div class=""><a target="_blank" href="https://www.linkedin.com/in/samnevarez/">Connect</a></div>
             </div>
           </div>
         </div>
 
         <div class="col-md-4 ecmb-m-6">
-          <div class="card py-4 h-100 bg-black">
+          <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <div class="ecmb-2"><img src="img/ec-email.svg" /></div>
-              <h4 class="ecmb-6 text-uppercase">Email</h4>
+              <div class=""><img class="card-icons" src="img/ec-email.svg" /></div>
+              <h3 class="ecmy-4 text-uppercase">Email</h3>
               <div class="">
                 <a href="mailto: snevarez89@gmail.com">snevarez89@gmail.com</a>
               </div>
@@ -283,10 +148,10 @@
         </div>
 
         <div class="col-md-4 ecmb-m-6">
-          <div class="card py-4 h-100 bg-black">
+          <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <div class="ecmb-2"><img src="img/ec-phone.svg" /></div>
-              <h4 class="ecmb-6 text-uppercase">Phone</h4>
+              <div class=""><img class="card-icons" src="img/ec-phone.svg" /></div>
+              <h3 class="ecmy-4 text-uppercase">Phone</h3>
               <div class="">
                   <a href="tel: 951-226-4953">951-226-4953</a>
               </div>
@@ -317,17 +182,18 @@
       <h2 class="ecmb-8">MY PROJECTS</h2>
 
       <!-- Project One Row -->
-      <div class="ecmb-8 row justify-content-center no-gutters">
-        <div class="col-lg-6 flex-center bg-black">
-          <img class="img-fluid" src="img/projects/project-x.png" alt="">
+      <div class="project-card ecmb-8 row justify-content-center no-gutters">
+        <div class="col-lg-6 flex-center">
+          <img class="img-fluid" src="https://via.placeholder.com/640x480" alt="">
         </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black h-100 project">
+        <div class=" col-lg-6 order-lg-first">
+          <div class= h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-lg-left">
-                <h3 class="ecmb-6">Addictions.com Design System</h3>
+                <h3 class="ecmy-6">Addictions.com Design System</h3>
                   <p class="ecmb-0">
-                  Purpose: A developer-focused design system to articulate development specifications, module settings, and behavior to our webpage builder.
+                    I redesign addictions.com and created a design system to later design components for call conversions while enhancing the ability
+                    to search for drug and alcohol rehab centers in the U.S.
                 </p>
                 <a href="/project-1.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
               </div>
@@ -337,18 +203,19 @@
       </div>
 
       <!-- Project One Row -->
-      <div class="ecmb-8 row justify-content-center no-gutters">
-        <div class="col-lg-6 flex-center bg-black">
-          <img class="img-fluid" src="img/projects/project-x.png" alt="">
+      <div class="project-card ecmb-8 row justify-content-center no-gutters">
+        <div class="col-lg-6 flex-center">
+          <img class="img-fluid" src="https://via.placeholder.com/640x480" alt="">
         </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black h-100 project">
+        <div class=" col-lg-6 order-lg-first">
+          <div class= h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-lg-left">
-                <h3 class="ecmb-6">PLE UI KIT / DESIGN SYSTEM</h3>
+                <h3 class="ecmy-6">Addictions.com Design System</h3>
                   <p class="ecmb-0">
-                  Purpose: A developer-focused design system to articulate development specifications, module settings, and behavior to our webpage builder.
-                </p>
+                    I redesign addictions.com and created a design system to later design components for call conversions while enhancing the ability
+                    to search for drug and alcohol rehab centers in the U.S.
+                  </p>
                 <a href="/project-1.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
               </div>
             </div>
@@ -357,18 +224,18 @@
       </div>
 
       <!-- Project One Row -->
-      <div class="ecmb-8 row justify-content-center no-gutters">
-        <div class="col-lg-6 flex-center bg-black">
+      <div class="project-card ecmb-8 row justify-content-center no-gutters">
+        <div class="col-lg-6 flex-center">
           <img class="img-fluid" src="img/projects/project-1.png" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
-          <div class="bg-black h-100 project">
+          <div class= h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-lg-left">
-                <h3 class="ecmb-6">PLE MODULE BEHAVIOR DESIGN SYSTEM</h3>
+                <h3 class="ecmy-6">PLE MODULE BEHAVIOR DESIGN SYSTEM</h3>
                   <p class="ecmb-0">
                   Purpose: A developer-focused design system to articulate development specifications, module settings, and behavior to our webpage builder.
-                </p>
+                  </p>
                 <a href="/ple-module-behavior-design-system.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
               </div>
             </div>
@@ -385,13 +252,14 @@
       <div class="row">
         <div class="col-lg-12 mx-auto">
           <h2 class="ecmb-8">My Resume</h2>
-          <p class="ecmb-6">The artifact that showcases my employment history. <a class="js-scroll-trigger" target="_blank" href="/resume/snevarez-design-resume-2022.pdf">VIEW RESUME</a></p>
+          <p class="ecmb-6">The artifact that showcases my employment history. <a class="js-scroll-trigger" target="_blank" href="/resume/snevarez-design-resume-2022.pdf">VIEW RESUME</a>
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="ecmt-16 projects-section">
+  <section id="teams" class="ecmt-16 projects-section">
     <div class="container">
       <!-- Core Values -->
       <div class="row g-0">
@@ -401,11 +269,11 @@
             <h3 class="ecmb-4 ecmb-m-4">Leadership</h3>
             <p class="ecmb-6">Obtain a strong understanding of the mission’s “why?” to then communicate that back down to lower levels. Establish trust and meaning among subordinates and ultimately allow them to do their jobs effectively.</p>
 
-            <p class="ecmb-8">Never put yourself in a position where you take from those around you.</p>
+            <p class="ecmb-8 font-weight-bold text-white">Never put yourself in a position where you take from those around you.</p>
 
             <h3 class="ecmb-4 ecmb-4">Communication</h3>
             <p class="ecmb-8">Resist isolation and let each other know what the intentions are. </p>
-            <h3 class="ecmb-4 ecmb-4">TEAMS</h3>
+            <h3 class="ecmb-4 ecmb-4">Confidence</h3>
             <p class="ecmb-6">Trust in yourself and lean on your colleagues for support.</p>
           </div>
         </div>
@@ -414,9 +282,9 @@
   </div>
 
   <!-- Footer -->
-  <footer class="ecmt-16 bg-black text-left">
-    <div class="container text-white">
-      Copyright &copy; samnevarez.com 2022
+  <footer class="bg-black ecmt-16 text-center">
+    <div class="container">
+      <p>Copyright &copy; samnevarez.com 2022</p>
     </div>
   </footer>
 
