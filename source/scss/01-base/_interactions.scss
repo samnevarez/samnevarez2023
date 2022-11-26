@@ -1,34 +1,37 @@
 // Button styles
 
 .btn {
-  padding: .25rem;
+  padding: 1rem;
+  background: $primary;
   font-family: $secondary-font;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0;
   border: 0;
-  box-shadow: 0 22px 12px -14px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 12px 12px -14px rgba(0, 0, 0, 0.2) !important;
   transition: all .25s ease 0s;
   outline: none;
   border-radius: 4px;
   border-color: none;
+  min-width: 120px;
 }
 
 .btn-primary {
+  padding: 1rem;
   background: $primary;
   text-decoration: none;
 
   &:hover {
     color: $white;
-    background: linear-gradient(to bottom, $primary, $primary-dark-800);
-    box-shadow: 0 14px 6px -8px rgba(0, 0, 0, 0.3) !important;
+    background: lighten($primary, 10%);
+    box-shadow: 0 16px 6px -10px rgba(0, 0, 0, 0.3) !important;
     transform: translateY(-2px);
     transition-duration: .25s;
   }
   &:focus {
     color: $white;
     background-color: lighten($primary, 10%);
-    box-shadow: 0 16px 6px -8px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 16px 6px -10px rgba(0, 0, 0, 0.3) !important;
     outline: none;
     
   }
@@ -49,11 +52,11 @@
 // Link Styles
 
 a {
-  color: rgb(255, 224, 51);
+  color: $url-color;
   text-decoration: none;
   
   &:hover {
-    color: rgb(255, 224, 51);
+    color: $url-color;
     text-decoration: underline;
   }
 }

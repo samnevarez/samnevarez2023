@@ -73,6 +73,16 @@
   animation-fill-mode: backwards;
 }
 
+.project-animation-1 {
+  animation: fadeIn 1s ease-in-out .25s;
+  animation-fill-mode: backwards;
+}
+
+.project-animation-3 {
+  animation: fadeIn 1.5s ease-in-out .5s;
+  animation-fill-mode: backwards;
+}
+
 /*!
  * animate.css -https://daneden.github.io/animate.css/
  * Version - 3.7.2

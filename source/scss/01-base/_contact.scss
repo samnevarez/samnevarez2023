@@ -1,13 +1,11 @@
 .contact-section {
-  padding: 0rem 0 0;
-  .card {
-    border: 0;
-    border-bottom: 0.25rem solid $primary;
-
-    hr {
-      border-color: $primary;
-      border-width: 0.25rem;
-      width: 3rem;
+  a {
+    color: $white;
+    text-decoration: none;
+    
+    &:hover {
+      color: $white;
+      text-decoration: none;
     }
   }
   .social {
