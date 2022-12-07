@@ -1,9 +1,10 @@
 /* mobile style */
 #mainNav {
+
+  font-family: $secondary-font;
   min-height: 56px;
-  background: $primary-dark-200;
-  border-radius: 0;
-  border-bottom: 1px solid $primary-dark-700;
+  background: lighten($primary-dark-200, 5%);
+  border-bottom: 1px solid $primary-dark-500;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
 
   .nav-svg {
@@ -11,13 +12,14 @@
   }
 
   .navbar {
-    padding: 0rem;
+    padding: 0;
   } 
   .navbar-toggler {
     padding: 0;
     color: $secondary;
     border: none;
     border-radius: 0;
+    
     &:focus {
       outline: none;
     &:hover {
@@ -27,20 +29,25 @@
     }
   }
   .navbar-brand {
-    color: darken($white, 20%);
+    color: $white;
     font-weight: 700;
     padding: 0;
   }
 }
+
 .navbar-dark .navbar-nav .nav-link {
     transition: 0.5s;
-    color: darken($white, 20%);
-    padding: 1rem 1rem;
-    &:hover{
+    padding: 2rem 1rem;
+
+    &:hover {
       color: $secondary;
     }
 }
 
-.navbar-dark .navbar-nav .nav-link.active {
-  color: $secondary;
+.nav-item {
+  border-top: solid 1px $primary-dark-400;
+}
+
+.nav-item:first-of-type{
+  border-top: none;
 }

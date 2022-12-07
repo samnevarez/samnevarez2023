@@ -2,8 +2,17 @@
     a {
         color: $url-color;
         text-decoration: none;
+        transition: .5s;
+        padding: 8px;
+        border: 1px solid $url-color;
+        border-radius: 4px;
+        background-color: none;
+
         &:hover {
-            text-decoration: underline;
+            text-decoration: none;
+            background: $url-color;
+            transition: .5s;
+            color: $primary-dark-200;
         }
     }
 }

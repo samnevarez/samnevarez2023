@@ -20,13 +20,16 @@ html {
 .container-sm,
 .container-md,
 .container-lg,
-.container-xl {
+.container-xl,
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+  img {
+    border-radius: 8px;
+    display: block;
+  }
 
 @media (min-width: 576px) {
   .container, .container-sm {

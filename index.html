@@ -4,8 +4,8 @@
 <head>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" >
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com">
+  <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,8 +26,10 @@
   <title>Sam Nevarez | UI/UX Designer</title>
 
   <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="/css/01-base.all.css">
-  <link rel="stylesheet" href="/css/02-components/component-style.css">
+  <link rel="stylesheet" href="css/01-base.all.css">
+  <link rel="stylesheet" href="css/02-components/component-style.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/lity.js"></script>
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -44,23 +46,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
 
   <!-- Bootstrap core JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
   <!-- Jquery easing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 </head>
 
-<body id="page-top">
+<body id="page-top" class="project-animation-conent">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="nav-svg" src="img/el-castillo-emblem.svg" /></a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="nav-svg" src="/img/el-castillo-emblem.svg" /></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <img class="nav-svg" src="img/ec-nav-toggler.svg" />
+        <img class="nav-svg" src="/img/ec-nav-toggler.svg" />
       </button>
       <div class="collapse navbar-collapse ecmt-m-4" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
@@ -71,10 +72,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#teams">Team Principles</a>
@@ -87,11 +88,13 @@
   <!-- Header -->
   <header id="home" class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="col-xl-4 col-lg-4 p-md-0 ecpx-m-2">
-        <h1 class="ecmb-4 ecmb-m-3 header-animation-1 text-uppercase">SAM NEVAREZ</h1>
-        <h3 class="ecmb-12 header-animation-2">UI/UX Designer</h3>
-        <h6 class="ecmb-4 header-animation-3 text-white">Riverside County, CA</h6>
-        <p class="ecmb-0 header-animation-4">My mission is to utilize UX Strategy and Frontend knowldege to ultimately strengthen the relationship between the user and product.</p>
+      <div class="col-xl-5 col-lg-5 p-md-0 ecpx-m-2">
+        <h1 class="ecmb-1 ecmb-m-1 header-animation-1">SAM NEVAREZ</h1>
+        <h3 class="ecmb-12 header-animation-2">
+        <span class="interactive-color header-animation-3">UX</span><span class="ec-gray header-animation-3">/</span><span class="interactive-color header-animation-3">UI</span> Designer
+        <span class="interactive-color header-animation-3">Frontend Advocate</span></h3>
+        <h5 class="ecmb-4 header-animation-3">Location: Southern California</h5>
+        <p class="ecmb-0 header-animation-4">My mission is to utilize my experience with UX Strategy and frontend developement to ultimately strengthen the relationship between the user and product.</p>
         <a href="#about" class="ecmt-8 py-3 px-3 header-animation-5 btn btn-primary btn-project js-scroll-trigger">EXPLORE ↓</a>
       </div>
     </div>
@@ -100,20 +103,22 @@
   <!-- About Section -->
   <section id="about" class="ecmy-16 about-section">
     <div class="container">
+      <div class="row mx-auto">
+        <h2 class="ecmt-0 ecmb-8 ecmb-m-8">ABOUT ME</h2>
+      </div>
       <div class="row">
-        <div class="col-xl-4 col-lg-4">
-          <img class="img-fluid ecmb-m-8" src="img/profile-picture-d.jpg" alt="">
-        </div>
         <div class="col-lg-8 mx-auto">
-          <h2 class="ecmt-0 ecmb-8 ecmb-m-8">ABOUT ME</h2>
           <p class="ecmb-6">
             From 2010 to 2022, my exposure to web design and development has resulted into a fulfilling career and passion. As a hybrid designer, I’ve had the opportunity to bridge efforts between design and development to achieve a delightful user experience.
             When I unplug, I seek camping, physical training, and producing film scores. From time to time, I pursue the existential pleasures of eating tacos.            
           </p>
           <h3 class="ecmb-6">Why the Mayan pyramid?</h3>
           <p class="ecmb-0">
-            The photo of the pyramid above was taken when I visted Chichén Itzá in Mexico's Yucatán. During my visit, I was very intrigued with Mayan architecture. The Mayans were known for incorporating mathematics and spatial awareness within their designs. The shadows on these structures helped the Mayans determine the proper time to cultivate crops and used these structures as centeral points to gather. Today, the ruins demonstrate what it means to design methodically and with intention. That trip inspired me to design and code my porfolio to resemble an ancient time. I designed my own icons and animated background effects of the pyrimid to personalize my website to remember that amazing trip.
+            The photo of the pyramid above was taken when I visted Chichén Itzá in Mexico's Yucatán. I was very intrigued with Mayan architecture. They incorporating mathematics and spatial awareness within their structural designs. The shadows on these structures helped the Mayans determine the proper time to cultivate crops and used these structures as centeral points to gather and celebrate annual traditions. Today, the ruins demonstrate what it means to design methodically and with intention. That trip inspired me to design and code my porfolio to resemble an ancient time. I designed my own icons and animated background effects of the pyrimid to personalize my website in remembrance of that amazing trip.
           </p>
+        </div>
+        <div class="col-xl-4 col-lg-4" data-lity data-lity-desc="Sam Nevarez" href="img/profile-picture-d.jpg">
+          <img class="img-fluid ecmt-m-8" src="/img/profile-picture-d.jpg" alt="Sam Nevarez">
         </div>
       </div>
     </div>
@@ -125,41 +130,52 @@
 
       <div class="row">
 
-        <div class="col-md-4 ecmb-m-6">
+        <div class="col-lg-3 ecmb-m-6">
+          <a id="resume" target="_blank" href="resume/snevarez-design-resume-2022.pdf">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <div class=""><img class="card-icons" src="/img/ec-resume.svg" /></div>
+              <h4 class="ecmy-4">My Resume</h4>
+              <p class="">View PDF</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 ecmb-m-6">
           <a target="_blank" href="https://www.linkedin.com/in/samnevarez/">
             <div class="card py-4 h-100">
-            
               <div class="card-body text-center">
-                <div class=""><img class="card-icons" src="img/ec-linkedin.svg" /></div>
-                <h4 class="ecmy-4 text-uppercase">Linkedin</h4>
+                <div class=""><img class="card-icons" src="/img/ec-linkedin.svg" /></div>
+                <h4 class="ecmy-4">Linkedin</h4>
                 <p class="">Connect</p>
               </div>
             </div>
           </a>
         </div>
 
-        <div class="col-md-4 ecmb-m-6">
+        <div class="col-lg-3 ecmb-m-6">
           <a href="mailto: snevarez89@gmail.com">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <div class=""><img class="card-icons" src="img/ec-email.svg" /></div>
-                <h4 class="ecmy-4 text-uppercase">Email</h4>
+                <div class=""><img class="card-icons" src="/img/ec-email.svg" /></div>
+                <h4 class="ecmy-4">Email</h4>
                 <p class="">snevarez89@gmail.com</p>
               </div>
             </div>
           </a>
         </div>
 
-        <div class="col-md-4 ecmb-m-6">
+        <div class="col-lg-3 ecmb-m-6">
           <a href="tel: 951-226-4953">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <div class=""><img class="card-icons" src="img/ec-phone.svg" /></div>
-              <h4 class="ecmy-4 text-uppercase">Phone</h4>
+              <div class=""><img class="card-icons" src="/img/ec-phone.svg" /></div>
+              <h4 class="ecmy-4">Phone</h4>
               <p class="">951-226-4953</p>
             </div>
           </div>
         </div>
+
       </div>
     </a>
     </div>
@@ -177,7 +193,7 @@
       </div> -->
 
   </section>
-
+  <hr>
   <!-- Projects Section -->
   <section id="projects" class="ecmt-16 projects-section">
     <div class="container">
@@ -187,10 +203,10 @@
       <!-- Project One Row -->
       <div class="project-card ecmb-14 row justify-content-center no-gutters">
         <div class="col-lg-6 flex-center">
-          <img class="img-fluid" src="https://via.placeholder.com/640x480" alt="">
+          <img class="img-fluid" src="/img/projects/addictions-project-thumbnail.jpg" alt="">
         </div>
         <div class=" col-lg-6 order-lg-first">
-          <div class= h-100 project">
+          <div class="h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-lg-left">
                 <h3 class="ecmy-4">Addictions.com Design System</h3>
@@ -198,70 +214,71 @@
                     I redesign addictions.com and created a design system to later design components for call conversions while enhancing the ability
                     to search for drug and alcohol rehab centers in the U.S.
                 </p>
-                <a href="/project-1.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
+                <a id="project-link" href="/addictions-design-system.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Project One Row -->
+      <!-- Project 2 Row -->
       <div class="project-card ecmb-14 row justify-content-center no-gutters">
         <div class="col-lg-6 flex-center">
-          <img class="img-fluid" src="https://via.placeholder.com/640x480" alt="">
-        </div>
-        <div class=" col-lg-6 order-lg-first">
-          <div class= h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-lg-left">
-                <h3 class="ecmy-4">Addictions.com Design System</h3>
-                  <p class="ecmb-0">
-                    I redesign addictions.com and created a design system to later design components for call conversions while enhancing the ability
-                    to search for drug and alcohol rehab centers in the U.S.
-                </p>
-                <a href="/project-1.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project One Row -->
-      <div class="project-card ecmb-14 row justify-content-center no-gutters">
-        <div class="col-lg-6 flex-center">
-          <img class="img-fluid" src="img/projects/project-1.png" alt="">
+          <img class="img-fluid" src="/img/projects/project-1/project-1-cover.png" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
-          <div class= h-100 project">
+          <div class="h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-lg-left">
-                <h3 class="ecmy-4">PLE MODULE BEHAVIOR DESIGN SYSTEM</h3>
+                <h3 class="ecmy-4">PLE 2.0 DESIGN SYSTEM</h3>
                   <p class="ecmb-0">
-                  Purpose: A developer-focused design system to articulate development specifications, module settings, and behavior to our webpage builder.
+                    My task was to create a unique design system with frontend focused specifications (typography and scaling, default flex properties, margins, paddings variations, stacking order etc.) in order to proper convey module settings and behaviors by a user.
                   </p>
-                <a href="/ple-module-behavior-design-system.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
+                <a href="/ple-module-design-system.html" class="ecmt-8 btn btn-primary btn-project">EXPLORE →</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+            <!-- Project 3 Row -->
+            <div class="project-card ecmb-14 row justify-content-center no-gutters">
+              <div class="col-lg-6 flex-center">
+                <img class="img-fluid" src="img/projects/project-3/uxa-information-architecture.jpg" alt="">
+              </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-lg-left">
+                      <h3 class="ecmy-4">DRUGABUSE.COM UX Audit: Information Architecture</h3>
+                        <p class="ecmb-0">
+                          I performed an audit to dive deep into the structure of information and the value of its content. In this report, I demonstrated data visuals of drugabuse.com by utilizing Google Analytics and developer tools.
+                        </p>
+                      <a target="_blank" href="img/projects/project-3/UXa-Information-Architecture-final-compressed.pdf" class="ecmt-8 btn btn-primary btn-project">VIEW REPORT →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
       
     </div>
   </section>
 
   <!-- Resume Section -->
-  <section id="resume" class="ecmb-16 resume-section">
+  <!-- <section id="resume" class="ecmb-16 resume-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto">
-          <h2 class="ecmb-8">My Resume</h2>
-          <p class="ecmb-6">The artifact that showcases my employment history. <a class="js-scroll-trigger" target="_blank" href="/resume/snevarez-design-resume-2022.pdf">VIEW RESUME</a>
+          <h2 class="ecmb-8">Resume</h2>
+          <p class="ecmb-6">
+          Download a PDF of my resume.
           </p>
+          <a class="js-scroll-trigger" target="_blank" href="/resume/snevarez-design-resume-2022.pdf">RESUME.PDF</a>
         </div>
       </div>
     </div>
-  </section>
-
+  </section> -->
+  <hr>
   <section id="teams" class="ecmt-16 projects-section">
     <div class="container">
       <!-- Core Values -->
@@ -270,13 +287,13 @@
           <div class="featured-text text-lg-left">
             <h2 class="ecmb-8">TEAM PRINCIPLES</h2>
             <h3 class="ecmb-4 ecmb-m-4">Leadership</h3>
-            <p class="ecmb-6">Obtain a strong understanding of the mission’s “why?” to then communicate that back down to lower levels. Establish trust and meaning among subordinates and ultimately allow them to do their jobs effectively.</p>
+            <p class="ecmb-6">Obtain a strong understanding of the mission's “why?” Communicate that back down the ladder to subordinate leadership. Establish trust and ultimately allow people to do their jobs.</p>
 
-            <p class="ecmb-8 font-weight-bold text-white">Never put yourself in a position where you take from those around you.</p>
+            <h5 class="ecmb-8 font-weight-bold interactive-color">Never put yourself in a position where you take from those around you.</h5>
 
             <h3 class="ecmb-4 ecmb-4">Communication</h3>
-            <p class="ecmb-8">Resist isolation and let each other know what the intentions are. </p>
-            <h3 class="ecmb-4 ecmb-4">Confidence</h3>
+            <p class="ecmb-8">Resist isolation and let each other know what each team/person is doing.</p>
+            <h3 class="ecmb-4 ecmb-4">Confidence / Ability</h3>
             <p class="ecmb-6">Trust in yourself and lean on your colleagues for support.</p>
           </div>
         </div>
@@ -292,8 +309,6 @@
   </footer>
 
   <!-- Custom scripts for this template -->
-  <script src="js/main.js"></script>
-
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>

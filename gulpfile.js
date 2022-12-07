@@ -59,7 +59,7 @@ gulp.task('watch', function(){
 });
 
 gulp.task('watchhtml', function(){
-  gulp.watch(['index.html'], gulp.series('sass','scripts', 'reload'));
+  gulp.watch(['index.html', './*.html'], gulp.series('sass','scripts', 'reload'));
 });
 
 gulp.task('watchall', gulp.parallel('watch', 'watchhtml'));

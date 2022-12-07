@@ -1,27 +1,49 @@
 body {
   background-color: $primary-dark-200;
   font-family: $secondary-font;
+  color: $white;
+
+  hr {
+    margin: .5rem 0;
+    border: .5px solid #232346;
+  }
+
+  p {
+    font-family: $primary;
+    font-size: 18px;
+    font-weight: 300;
+    color: $paragraph;
+    line-height: 1.75rem;
+    }
+
+  .sub-paragraph {
+    font-family: $primary;
+    font-size: 14px;
+    font-weight: 300;
+    color: $white;
+    line-height: 1.5rem;
+  }
   
   h1, h2, h3, h4, h5, h6 {
     color: $white;
     font-family: $primary-font;
-    font-weight: 400;
-    text-transform: uppercase;    
+    font-weight: 200;
+    text-transform: uppercase;
   }
   
   h1 {
     font-size: 4rem;
-    line-height: 3.5rem;
+    line-height: 4.25rem;
   }
   
   h2 {
     font-size: 3.25rem;
-    line-height: 3.75rem;
+    line-height: 3.5rem;
   }
   
   h3 {
     font-size: 1.75rem;
-    line-height: 2.25rem;
+    line-height: 2rem;
   }
   
   h4 {
@@ -39,12 +61,6 @@ body {
     line-height: 1.25rem;
   }
 
-  p {
-  font-family: $primary;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.80);
-  line-height: 1.5rem;
-  }
 }
 
 footer {
@@ -54,10 +70,6 @@ footer {
 .img-fluid {
   width: 100%;
   height: auto;
-}
-
-.ecborder{
-  border: 1px solid $primary-dark-600;
 }
 
 @media (max-width: 992px) {

@@ -1,3 +1,10 @@
+.interactive-color {
+  color: lighten($primary, 30%);
+}
+
+.ec-gray {
+  color: darken($paragraph, 30%);
+}
 
 .bg-black {
   background-color: $primary-dark-400 !important;

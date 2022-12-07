@@ -1,0 +1,35 @@
+
+.card {
+    transition: all 0.25s ease-in-out;
+    border-radius: 8px;
+    border-top: 2px solid $primary-dark-300;
+    border-bottom: 2px solid $primary-dark-600;
+    border-left: 2px solid $primary-dark-300;
+    background: linear-gradient(-45deg, var(--c1, $primary-dark-200), var(--c2, $primary-dark-500), var(--c1, $primary-dark-200)) var(--x, 0)/ 200%;
+
+    p {
+        font-weight: 400;
+        color: $paragraph;
+        font-size: 16px;
+    }
+
+    &:hover {
+        color: $white;
+        transform: translateY(-2px);
+        transition: all 0.25s ease-in-out;
+        border-top: 2px solid $primary-dark-600;
+        border-bottom: 2px solid $primary-dark-400;
+        border-left: 2px solid $primary-dark-600;
+        --x: 50%;
+    }
+    
+    &:active {
+        transform: translateY(2px);
+        --x: 50%;
+    }
+
+    .card-icons {
+        width: 48px;
+        height: auto;
+    }
+}
