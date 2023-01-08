@@ -9,6 +9,13 @@
 
   .nav-svg {
     height: 40px;
+    opacity: .7;
+    transition: .5s;
+  }
+
+  .nav-svg:hover {
+    opacity: 1;
+    transition: .5s;
   }
 
   .navbar {

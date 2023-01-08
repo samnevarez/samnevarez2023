@@ -35,6 +35,10 @@ body {
     font-size: 4rem;
     line-height: 4.25rem;
   }
+
+  .titleName {
+    letter-spacing: 1px;
+  }
   
   h2 {
     font-size: 3.25rem;
@@ -59,6 +63,29 @@ body {
   h6 {
     font-size: 1rem;
     line-height: 1.25rem;
+  }
+
+  // @for $i from 1 through 6 {
+  //   h#{7 - $i} {
+  //       color: $white;
+  //       font-family: $primary-font;
+  //       font-weight: 400;
+  //       line-height: $i * 8px + 8px;
+  //       text-transform: uppercase;
+  //   }
+  // }
+
+  @media screen and (max-width: 768px) {
+    @for $i from 1 through 4 {
+      h#{5 - $i} {
+          font-size: $i * .75rem;
+          color: $white;
+          font-family: $primary-font;
+          font-weight: 400;
+          line-height: $i * 1rem - .25rem;
+          text-transform: uppercase;
+      }
+    }
   }
 
 }

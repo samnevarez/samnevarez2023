@@ -1,0 +1,19 @@
+.intro-logo {
+    display: flex;
+    align-items: center;
+
+    img {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-logo {
+        img {
+        display: none;
+        }
+    }
+}
