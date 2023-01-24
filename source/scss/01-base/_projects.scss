@@ -58,3 +58,31 @@
   }
 
 }
+
+.project-list {
+    display: block;
+    color: $paragraph;
+
+    li {
+      font-size: 1rem;
+      padding: 24px;
+      display: block;
+      border-bottom: 1px solid $primary-dark-700;
+      background: $primary-dark-500;
+
+      &:first-child{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      &:last-child{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom: 2px solid $primary-dark-700;
+      }
+
+      &:hover{
+
+      }
+    }
+  }
