@@ -8,15 +8,15 @@
 //   }
 // }
 
-@media screen and (max-width: 768px) {
-  @for $i from 1 through 4 {
-    h#{5 - $i} {
-        font-size: $i * .75rem;
-        color: black;
-        font-family: $primary-font;
-        font-weight: 400;
-        line-height: $i * 1rem - .25rem;
-        text-transform: uppercase;
-    }
-  }
-}
+// @media screen and (max-width: 768px) {
+//   @for $i from 1 through 4 {
+//     h#{5 - $i} {
+//         font-size: $i * .75rem;
+//         color: black;
+//         font-family: $primary-font;
+//         font-weight: 400;
+//         line-height: $i * 1rem - .25rem;
+//         text-transform: uppercase;
+//     }
+//   }
+// }
