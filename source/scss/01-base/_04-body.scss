@@ -1,7 +1,6 @@
 body {
-  background-color: $primary-dark-200;
+  background-color: $default-white-base;
   font-family: $secondary-font;
-  color: $white;
 
   hr {
     margin: .5rem 0;
@@ -12,7 +11,6 @@ body {
     font-family: $primary;
     font-size: 18px;
     font-weight: 300;
-    color: $paragraph;
     line-height: 1.75rem;
     }
 
@@ -25,7 +23,6 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: $white;
     font-family: $primary-font;
     font-weight: 200;
     text-transform: uppercase;

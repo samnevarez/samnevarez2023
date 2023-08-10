@@ -2,25 +2,24 @@
     padding: 2rem 0;
     transition: all 0.25s ease-in-out;
     border-radius: 8px;
-    border-top: 2px solid $primary-dark-300;
-    border-right: 2px solid $primary-dark-400;
-    border-bottom: 2px solid $primary-dark-300;
-    border-left: 2px solid $primary-dark-300;
-    background: linear-gradient(-45deg, var(--c1, $primary-dark-200), var(--c2, $primary-dark-400), var(--c1, $primary-dark-200)) var(--x, 0)/ 200%;
+    // border-top: 2px solid $primary-dark-300;
+    // border-right: 2px solid $primary-dark-400;
+    // border-bottom: 2px solid $primary-dark-300;
+    // border-left: 2px solid $primary-dark-300;
+    // background: linear-gradient(-45deg, var(--c1, $primary-dark-200), var(--c2, $primary-dark-400), var(--c1, $primary-dark-200)) var(--x, 0)/ 200%;
 
     p {
         font-weight: 400;
-        color: $white;
         font-size: 16px;
     }
 
     &:hover {
         transform: translateY(-2px);
         transition: all 0.25s ease-in-out;
-        border-top: 2px solid $primary-dark-500;
-        border-right: 2px solid $primary-dark-400;
-        border-bottom: 2px solid $primary-dark-400;
-        border-left: 2px solid $primary-dark-500;
+        // border-top: 2px solid $primary-dark-500;
+        // border-right: 2px solid $primary-dark-400;
+        // border-bottom: 2px solid $primary-dark-400;
+        // border-left: 2px solid $primary-dark-500;
         --x: 50%;
 
     }
@@ -40,23 +39,22 @@
     padding: 2rem 0;
     transition: all 0.25s ease-in-out;
     border-radius: 8px;
-    border-top: 2px solid $primary-dark-600;
-    border-bottom: 2px solid $primary-dark-700;
-    border-right: 2px solid $primary-dark-700;
-    border-left: 2px solid $primary-dark-600;
-    background: linear-gradient(-45deg, var(--c1, $primary-dark-400), var(--c2, $primary-dark-800), var(--c1, $primary-dark-400)) var(--x, 0)/ 200%;
+    // border-top: 2px solid $primary-dark-600;
+    // border-bottom: 2px solid $primary-dark-700;
+    // border-right: 2px solid $primary-dark-700;
+    // border-left: 2px solid $primary-dark-600;
+    // background: linear-gradient(-45deg, var(--c1, $primary-dark-400), var(--c2, $primary-dark-800), var(--c1, $primary-dark-400)) var(--x, 0)/ 200%;
 
     p {
         font-weight: 400;
-        color: $white;
         font-size: 16px;
     }
 
     &:hover {
-        border-top: 2px solid $primary-dark-900;
-        border-bottom: 2px solid $primary-dark-800;
-        border-right: 2px solid $primary-dark-700;
-        border-left: 2px solid $primary-dark-900;
+        // border-top: 2px solid $primary-dark-900;
+        // border-bottom: 2px solid $primary-dark-800;
+        // border-right: 2px solid $primary-dark-700;
+        // border-left: 2px solid $primary-dark-900;
         transform: translateY(-2px);
         transition: all 0.25s ease-in-out;
         --x: 50%;

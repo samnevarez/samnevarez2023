@@ -4,7 +4,7 @@ $primary-font: 'Barlow Condensed', sans-serif;
 $secondary-font: 'Lato', sans-serif;
 
 $white: #e9e9e9 !default;
-$black: #111 !default;
+$black: #000 !default;
 $primary: #0000FF !default;
 
 $gray-100: lighten(#111, 90%) !default;
@@ -32,3 +32,67 @@ $secondary: lighten($primary, 55%) !default;
 
 $url-color: #ffe033;
 $paragraph: #b3b3df;
+
+
+/* Default Colors */
+$default-black-base: #333 !default;
+$default-white-base: #FAFAFA !default;
+
+/* Dark Primary */
+$dark-prim-base: #2A283F !default;
+$dark-prim-10l: lighten($dark-prim-base, 10%);
+$dark-prim-5d: darken($dark-prim-base, 5%);
+$dark-prim-10d: darken($dark-prim-base, 15%);
+$dark-prim-20d: darken($dark-prim-base, 20%);
+
+/* Dark Secondary */
+$dark-sec-base: #0000FF !default;
+$dark-sec-10l: lighten($dark-sec-base, 10%);
+$dark-sec-10d: darken($dark-sec-base, 10%);
+$dark-sec-15d: darken($dark-sec-base, 15%);
+
+/* Light Primary */
+$light-prim-base: #26FFDF !default;
+$light-prim-10l: lighten($light-prim-base, 10%);
+$light-prim-5d: darken($light-prim-base, 5%);
+$light-prim-10d: darken($light-prim-base, 10%);
+ 
+/* Light Secondary */
+$light-sec-base: #00D8B9 !default;
+$light-sec-10l: lighten($light-sec-base, 10%);
+$light-sec-10d: darken($light-sec-base, 10%);
+
+/* Interactive dark */
+$dark-interactive-prim-base: #59FFE7 !default;
+$dark-interactive-prim-10l: lighten($dark-interactive-prim-base, 10%);
+$dark-interactive-prim-10d: darken($dark-interactive-prim-base, 10%);
+
+/* Interactive light */
+$light-interactive-prim-base: #1A1AFF !default;
+$light-interactive-prim-10l: lighten($light-interactive-prim-base, 10%);
+$light-interactive-prim-10d: darken($light-interactive-prim-base, 10%);
+
+.dsbc {
+    background: $dark-prim-base !important;
+    color: $default-white-base !important;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $default-white-base;
+    }
+
+    p {
+        color: $default-white-base;
+    }
+}
+
+.lsbc {
+    background: $default-white-base !important;
+    color: $default-black-base !important;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $default-black-base;
+    }
+    p {
+        color: $default-black-base;
+    }
+}
