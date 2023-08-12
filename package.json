@@ -20,8 +20,12 @@
     "gulp-sass": "^5.0.0",
     "gulp-sass-glob": "^1.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-using": "^0.1.1",
     "node-sass-globbing": "0.0.23",
     "sass": "^1.43.4",
     "sort-stream": "^1.0.1"
+  },
+  "dependencies": {
+    "node": "^20.5.0"
   }
 }
