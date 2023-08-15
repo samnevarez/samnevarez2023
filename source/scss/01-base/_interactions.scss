@@ -17,7 +17,7 @@
 
 .btn-primary {
   padding: 1rem;
-  background: linear-gradient(90deg, var(--c1, $primary-dark-700), var(--c2, $primary) 50%, var(--c1, $primary-dark-800)) var(--x, 0)/ 200%;
+  background: linear-gradient(90deg, var(--c1, $default-black-base), var(--c2, $default-black-base) 50%, var(--c1, $default-black-base)) var(--x, 0)/ 200%;
   text-decoration: none;
 
   &:hover {
@@ -30,7 +30,7 @@
   
   &:focus {
     color: $white;
-    background-color: lighten($primary, 10%);
+    background-color: $default-black-base;
     box-shadow: 0 16px 6px -10px rgba(0, 0, 0, 0.3) !important;
     outline: none;
     transition: all .25s ease-in-out;
@@ -39,7 +39,7 @@
 
   &:active {
     color: $white;
-    background-color: darken($primary, 10%) !important;
+    background-color: $default-black-base !important;
     box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.5);
     transform: translateY(1px);
     transition-duration: 0s;

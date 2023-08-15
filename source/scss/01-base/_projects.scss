@@ -1,9 +1,9 @@
 #projects {
 
   .project-card {
-    // background: linear-gradient(to bottom right, $primary-dark-600, $primary-dark-300);
+    // background: linear-gradient(to bottom right, $dark-sec-base, $dark-sec-base);
     color: $white;
-    // border-bottom: 4px solid $primary-dark-800;
+    // border-bottom: 4px solid $dark-sec-base;
     border-radius: 8px;
 
     img {
@@ -19,7 +19,7 @@
     
     @media (min-width: 320px) {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary-dark-600;
+      border-left: 0.5rem solid $dark-sec-base;
     }
   }
 
@@ -49,11 +49,11 @@
     P {
     font-weight: 400;
     font-size: 1rem;
-    background-color: $primary-dark-500;
+    background-color: $dark-sec-base;
     padding: 24px;
     display: block;
     border-radius: 8px;
-    border-bottom: 2px solid $primary-dark-700;
+    border-bottom: 2px solid $dark-sec-base;
 
   }
 
@@ -67,8 +67,8 @@
       font-size: 1rem;
       padding: 24px;
       display: block;
-      border-bottom: 1px solid $primary-dark-700;
-      background: $primary-dark-500;
+      border-bottom: 1px solid $dark-sec-base;
+      background: $dark-sec-base;
 
       &:first-child{
         border-top-left-radius: 8px;
@@ -78,7 +78,7 @@
       &:last-child{
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
-        border-bottom: 2px solid $primary-dark-700;
+        border-bottom: 2px solid $dark-sec-base;
       }
 
       &:hover{

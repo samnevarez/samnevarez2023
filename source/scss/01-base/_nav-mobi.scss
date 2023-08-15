@@ -1,16 +1,13 @@
 /* mobile style */
 #mainNav {
-
+  color: $default-white-base;
   font-family: $secondary-font;
   min-height: 56px;
-  background: lighten($primary-dark-200, 5%);
-  border-bottom: 1px solid $primary-dark-500;
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
+  background: #f6f6f6;
+  // box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
 
   .nav-svg {
     height: 40px;
-    opacity: .7;
-    transition: .5s;
   }
 
   .nav-svg:hover {
@@ -24,19 +21,19 @@
   .navbar-toggler {
     padding: 0;
     color: $secondary;
-    border: none;
-    border-radius: 0;
+
+
     
     &:focus {
       outline: none;
     &:hover {
       color: $secondary;
-      border: none;
+  
     }
     }
   }
   .navbar-brand {
-    color: $white;
+    color: $default-black-base;
     font-weight: 700;
     padding: 0;
   }
@@ -52,9 +49,7 @@
 }
 
 .nav-item {
-  border-top: solid 1px $primary-dark-400;
 }
 
 .nav-item:first-of-type{
-  border-top: none;
 }

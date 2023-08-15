@@ -2,11 +2,11 @@
     padding: 2rem 0;
     transition: all 0.25s ease-in-out;
     border-radius: 8px;
-    // border-top: 2px solid $primary-dark-300;
-    // border-right: 2px solid $primary-dark-400;
-    // border-bottom: 2px solid $primary-dark-300;
-    // border-left: 2px solid $primary-dark-300;
-    // background: linear-gradient(-45deg, var(--c1, $primary-dark-200), var(--c2, $primary-dark-400), var(--c1, $primary-dark-200)) var(--x, 0)/ 200%;
+    // border-top: 2px solid dark-sec-base;
+    // border-right: 2px solid dark-sec-base;
+    // border-bottom: 2px solid dark-sec-base;
+    // border-left: 2px solid dark-sec-base;
+    // background: linear-gradient(-45deg, var(--c1, dark-sec-base), var(--c2, dark-sec-base), var(--c1, dark-sec-base)) var(--x, 0)/ 200%;
 
     p {
         font-weight: 400;
@@ -16,10 +16,10 @@
     &:hover {
         transform: translateY(-2px);
         transition: all 0.25s ease-in-out;
-        // border-top: 2px solid $primary-dark-500;
-        // border-right: 2px solid $primary-dark-400;
-        // border-bottom: 2px solid $primary-dark-400;
-        // border-left: 2px solid $primary-dark-500;
+        // border-top: 2px solid dark-sec-base;
+        // border-right: 2px solid dark-sec-base;
+        // border-bottom: 2px solid dark-sec-base;
+        // border-left: 2px solid dark-sec-base;
         --x: 50%;
 
     }
@@ -39,11 +39,11 @@
     padding: 2rem 0;
     transition: all 0.25s ease-in-out;
     border-radius: 8px;
-    // border-top: 2px solid $primary-dark-600;
-    // border-bottom: 2px solid $primary-dark-700;
-    // border-right: 2px solid $primary-dark-700;
-    // border-left: 2px solid $primary-dark-600;
-    // background: linear-gradient(-45deg, var(--c1, $primary-dark-400), var(--c2, $primary-dark-800), var(--c1, $primary-dark-400)) var(--x, 0)/ 200%;
+    // border-top: 2px solid dark-sec-base;
+    // border-bottom: 2px solid dark-sec-base;
+    // border-right: 2px solid dark-sec-base;
+    // border-left: 2px solid dark-sec-base;
+    // background: linear-gradient(-45deg, var(--c1, dark-sec-base), var(--c2, dark-sec-base), var(--c1, dark-sec-base)) var(--x, 0)/ 200%;
 
     p {
         font-weight: 400;
@@ -51,10 +51,10 @@
     }
 
     &:hover {
-        // border-top: 2px solid $primary-dark-900;
-        // border-bottom: 2px solid $primary-dark-800;
-        // border-right: 2px solid $primary-dark-700;
-        // border-left: 2px solid $primary-dark-900;
+        // border-top: 2px solid dark-sec-base;
+        // border-bottom: 2px solid dark-sec-base;
+        // border-right: 2px solid dark-sec-base;
+        // border-left: 2px solid dark-sec-base;
         transform: translateY(-2px);
         transition: all 0.25s ease-in-out;
         --x: 50%;

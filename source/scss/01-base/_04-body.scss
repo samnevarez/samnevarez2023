@@ -4,7 +4,7 @@ body {
 
   hr {
     margin: .5rem 0;
-    border: .5px solid #232346;
+    border: .5px solid $default-black-base;
   }
 
   p {
@@ -18,7 +18,6 @@ body {
     font-family: $primary;
     font-size: 14px;
     font-weight: 300;
-    color: $white;
     line-height: 1.5rem;
   }
   
@@ -64,7 +63,6 @@ body {
 
   // @for $i from 1 through 6 {
   //   h#{7 - $i} {
-  //       color: $white;
   //       font-family: $primary-font;
   //       font-weight: 400;
   //       line-height: $i * 8px + 8px;
@@ -75,11 +73,10 @@ body {
   @media screen and (max-width: 768px) {
     @for $i from 1 through 4 {
       h#{5 - $i} {
-          font-size: $i * 1rem;
-          color: $white;
+          font-size: $i * .75rem;
           font-family: $primary-font;
           font-weight: 400;
-          line-height: $i * 1rem;
+          line-height: $i * .75rem;
           text-transform: uppercase;
       }
     }

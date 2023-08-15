@@ -1,11 +1,10 @@
 @media (min-width: 992px) {
     #mainNav {
-      color: darken($secondary, 10%);
+      color: $default-black-base;
       font-family: $secondary-font;
       height: 56px;
       padding: 0;
-      border-bottom: 1px solid $primary-dark-600;
-      box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
+      // box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
 
       img {
         height: 32px;
@@ -16,39 +15,36 @@
     #mainNav .nav-link {
       transition: none;
       padding: 1rem 1.5rem;
-      color: darken($secondary, 10%);
-      border-bottom: 0.25rem solid transparent;
+      color: $default-white-base;
       transition: .5s;
       
     }
     #mainNav .nav-link:hover {
-      color: $secondary;
+      color: $default-black-base;
     }
     #mainNav .nav-link:active {
-      color: $secondary;
+      color: $default-black-base;
     }
     #mainNav.navbar-shrink {
-      background-color: $primary-dark-200;
+      background-color: #F6F6F6;
     }
     #mainNav.navbar-shrink .navbar-brand {
       color: $white;
       &:hover{
-        color: $secondary;
+        color: $default-black-base;
       }
     }
     #mainNav.navbar-shrink .nav-link {
-      color: darken($secondary, 10%);
-      border-bottom: 0.25rem solid transparent;
+      color: $default-black-base;
     }
     #mainNav.navbar-shrink .nav-link:hover {
-      color: $secondary;
+      color: $default-black-base;
     }
     #mainNav.navbar-shrink .nav-link:active {
-      color: $secondary;
+      color: $default-black-base;
     }
     #mainNav.navbar-shrink .nav-link.active {
-      color: $secondary;
+      color: $default-black-base;
       outline: none;
-      border-bottom: 0.25rem solid $secondary;
-    }
   }
+}
