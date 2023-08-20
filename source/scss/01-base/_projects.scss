@@ -2,7 +2,6 @@
 
   .project-card {
     // background: linear-gradient(to bottom right, $dark-sec-base, $dark-sec-base);
-    color: $white;
     // border-bottom: 4px solid $dark-sec-base;
     border-radius: 8px;
 
@@ -41,12 +40,14 @@
 }
 
 .caption {
+
     img {
       border-radius: 8px;
       display: block;
     }
     
     P {
+
     font-weight: 400;
     font-size: 1rem;
     background-color: $dark-sec-base;
@@ -61,8 +62,7 @@
 
 .project-list {
     display: block;
-    color: $paragraph;
-
+    
     li {
       font-size: 1rem;
       padding: 24px;
