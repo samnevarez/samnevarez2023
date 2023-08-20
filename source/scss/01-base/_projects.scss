@@ -2,11 +2,12 @@
 
   .project-card {
     // background: linear-gradient(to bottom right, $dark-sec-base, $dark-sec-base);
-    // border-bottom: 4px solid $dark-sec-base;
-    border-radius: 8px;
+    // border-bottom: 4px solid $default-black-base;
+    border-radius: 0px;
+    margin-bottom: 200px;
 
     img {
-      border-radius: 8px;
+      border-radius: 0px;
       display: block;
     }
   }
@@ -18,7 +19,7 @@
     
     @media (min-width: 320px) {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $dark-sec-base;
+      border-left: 0.5rem solid $default-black-base;
     }
   }
 
@@ -31,7 +32,7 @@
     @media (min-width: 992px) {
       padding: 1rem 1.5rem 1rem 0rem;
       hr {
-        border-color: $primary;
+        border-color: $default-black-base;
         border-width: .25rem;
         width: 30%;
       }
@@ -50,11 +51,10 @@
 
     font-weight: 400;
     font-size: 1rem;
-    background-color: $dark-sec-base;
     padding: 24px;
     display: block;
     border-radius: 8px;
-    border-bottom: 2px solid $dark-sec-base;
+    border: 1px solid $default-black-base;
 
   }
 
@@ -67,8 +67,8 @@
       font-size: 1rem;
       padding: 24px;
       display: block;
-      border-bottom: 1px solid $dark-sec-base;
-      background: $dark-sec-base;
+      border: 1px solid $default-black-base;
+      border-bottom: none;
 
       &:first-child{
         border-top-left-radius: 8px;
@@ -78,10 +78,10 @@
       &:last-child{
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
-        border-bottom: 2px solid $dark-sec-base;
+        border-bottom: 2px solid $default-black-base;
       }
 
-      &:hover{
+      &:hover {
 
       }
     }

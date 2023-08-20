@@ -15,7 +15,7 @@
     #mainNav .nav-link {
       transition: none;
       padding: 1rem 1.5rem;
-      color: $default-white-base;
+      color: $default-black-base;
       transition: .5s;
       
     }
@@ -26,10 +26,10 @@
       color: $default-black-base;
     }
     #mainNav.navbar-shrink {
-      background-color: #F6F6F6;
+  
     }
     #mainNav.navbar-shrink .navbar-brand {
-      color: $white;
+      color: $default-black-base;
       &:hover{
         color: $default-black-base;
       }

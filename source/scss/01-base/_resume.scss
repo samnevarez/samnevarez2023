@@ -1,16 +1,16 @@
 #resume {
     a {
-        color: $url-color;
+        color: $light-interactive-prim-base;
         text-decoration: none;
         transition: .5s;
         padding: 8px;
-        border: 1px solid $url-color;
+        border: 1px solid $light-interactive-prim-base;
         border-radius: 4px;
         background-color: none;
 
         &:hover {
             text-decoration: none;
-            background: $url-color;
+            background: $light-interactive-prim-base;
             transition: .5s;
             color: $dark-sec-base;
         }

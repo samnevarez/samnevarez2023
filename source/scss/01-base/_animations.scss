@@ -21,6 +21,14 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .header-animation-4{
+    padding: 8px;
+    background-color: rgba($default-white-base, .8);
+  }
+}
+
+
 .masthead {
   position: relative;
   min-height: 35rem;

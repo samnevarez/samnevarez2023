@@ -1,6 +1,6 @@
 /* mobile style */
 #mainNav {
-  color: $default-white-base;
+  color: $default-black-base;
   font-family: $secondary-font;
   min-height: 56px;
   background: #f6f6f6;
@@ -20,14 +20,14 @@
   } 
   .navbar-toggler {
     padding: 0;
-    color: $secondary;
+    color: $default-black-base;
 
 
     
     &:focus {
       outline: none;
     &:hover {
-      color: $secondary;
+      color: $default-black-base;
   
     }
     }
@@ -42,9 +42,10 @@
 .navbar-dark .navbar-nav .nav-link {
     transition: 0.5s;
     padding: 2rem 1rem;
+    color: $default-black-base !important;
 
     &:hover {
-      color: $secondary;
+      color: $light-interactive-prim-base;
     }
 }
 

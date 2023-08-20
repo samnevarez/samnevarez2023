@@ -55,11 +55,11 @@
 // Link Styles
 
 a {
-  color: $url-color;
+  color: $light-interactive-prim-base;
   text-decoration: none;
   
   &:hover {
-    color: $url-color;
+    color: $light-interactive-prim-base;
     text-decoration: underline;
   }
 }
