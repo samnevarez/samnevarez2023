@@ -1,3 +1,8 @@
+.header-bg {
+    background: radial-gradient(at 66% 50%, $default-white-base, #e0e0e0);
+    z-index: 0;
+}
+
 .intro-logo {
     display: flex;
     align-items: center;
