@@ -22,10 +22,8 @@
 }
 
 @media screen and (max-width: 992px) {
-  .header-animation-4{
-    padding: 16px;
-    background-color: rgba($default-white-base, .9);
-    border-radius: 4px;
+  .masthead:before {
+  display: none;
   }
 }
 

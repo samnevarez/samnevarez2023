@@ -21,11 +21,10 @@
   .navbar-toggler {
     padding: 0;
     color: $default-black-base;
-
-
     
     &:focus {
       outline: none;
+    }
     &:hover {
       color: $default-black-base;
   
@@ -37,20 +36,13 @@
     font-weight: 700;
     padding: 0;
   }
-}
 
 .navbar-dark .navbar-nav .nav-link {
     transition: 0.5s;
     padding: 2rem 1rem;
-    color: $default-black-base !important;
+    color: darken($dark-interactive-prim-base, 30%) !important;
 
     &:hover {
       color: $light-interactive-prim-base;
     }
-}
-
-.nav-item {
-}
-
-.nav-item:first-of-type{
 }
