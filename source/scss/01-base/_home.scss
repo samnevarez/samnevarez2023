@@ -3,22 +3,54 @@
     z-index: 0;
 }
 
-.intro-logo {
-    display: flex;
-    align-items: center;
-
-    img {
-    width: 48px;
-    height: 48px;
-    margin-right: 12px;
-    display: inline-block;
-    }
+.profile-mobile-image-container {
+    display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .intro-logo {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        // object-fit: cover;
+        // width: 100%;
+        // height: 100%;
+        // flex: 1;
+        // position: relative;
+    }
+
+    .profile-mobile-image-container {
+        display: flex;
+        flex:.1;
+        position: relative;
+    }
+
+    .title-container {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        height: auto;
+        
         img {
-        display: none;
+            align-items: center;
+            object-fit: contain;
+            min-height: 80px;
+            max-height: 96px;
+            margin-right: 8px;
+        }
+
+        .home-title {
+            display: flex;
+            font-size: 2.57rem;
+            line-height: 2.57rem;
+
+        }
+
+        .home-subtitle {
+            display: flex;
+            font-size: 1.22rem;
+            line-height: 1.22rem;
         }
     }
 }

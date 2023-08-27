@@ -4,7 +4,7 @@
       font-family: $secondary-font;
       height: 56px;
       padding: 0;
-      // box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
+      box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) !important;
 
       img {
         height: 32px;
@@ -26,8 +26,9 @@
       color: $default-black-base;
     }
     #mainNav.navbar-shrink {
-  
+      background-color: $default-white-base;
     }
+
     #mainNav.navbar-shrink .navbar-brand {
       color: $default-black-base;
       &:hover{
@@ -36,15 +37,20 @@
     }
     #mainNav.navbar-shrink .nav-link {
       color: $default-black-base;
+      outline: none;
+      border-bottom: 4px solid transparent;
     }
     #mainNav.navbar-shrink .nav-link:hover {
-      color: $default-black-base;
+      color: darken($light-prim-base, 20%);
+      outline: none;
+      border-bottom: 4px solid transparent;
     }
     #mainNav.navbar-shrink .nav-link:active {
       color: $default-black-base;
     }
     #mainNav.navbar-shrink .nav-link.active {
-      color: $default-black-base;
+      color: darken($light-prim-base, 20%);
       outline: none;
+      border-bottom: 4px solid darken($light-prim-base, 20%);
   }
 }

@@ -3,8 +3,8 @@
   color: $default-black-base;
   font-family: $secondary-font;
   min-height: 56px;
-  background: #f6f6f6;
-  // box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4) !important;
+  background: $default-white-base;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) !important;
 
   .nav-svg {
     height: 40px;
@@ -36,6 +36,17 @@
     font-weight: 700;
     padding: 0;
   }
+
+  .navbar-nav {
+    font-family: $secondary-font;
+    li.nav-item {
+      a.nav-link {
+        color: $default-black-base;
+        padding: 2rem 0 2rem 1rem;
+      }
+    }
+  }
+
 
 .navbar-dark .navbar-nav .nav-link {
     transition: 0.5s;
