@@ -1,8 +1,8 @@
 @keyframes bg-animation {
 
   0% {
-    opacity: .1;
-    background: url(../../../img/sn-bg-large-0.png);
+    opacity: 0;
+    background: url(../../../img/sn-bg-large-1.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -36,7 +36,7 @@
   height: 100vh;
 
   &:before {
-    // animation: bg-animation 5s ease-in-out 0s;
+    animation: bg-animation 4s ease-in-out 0s;
     content: ' ';
     opacity: 1;
     position: absolute;
@@ -86,7 +86,7 @@
   animation-fill-mode: backwards;
 }
 
-.project-animation-conent {
+.project-animation-content {
   animation: fadeIn 1s ease-in-out 0s;
   animation-fill-mode: backwards;
 }
