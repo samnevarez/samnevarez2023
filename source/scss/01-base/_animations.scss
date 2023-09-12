@@ -61,7 +61,13 @@
   animation-fill-mode: backwards;
 }
 
+.tirtiary-font {
+  font-family: $tertiary-font;
+  text-transform: none;
+}
+
 .header-animation-3 {
+  display: inline-block;
   animation: fadeIn 1s ease-in-out 1.5s;
   animation-fill-mode: backwards;
 }

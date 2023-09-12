@@ -1,7 +1,6 @@
 /* mobile style */
 #mainNav {
   color: $default-black-base;
-  font-family: $secondary-font;
   min-height: 56px;
   background: $default-white-base;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) !important;
@@ -39,6 +38,9 @@
 
   .navbar-nav {
     font-family: $secondary-font;
+    font-size: 16px;
+    text-decoration: none;
+
     li.nav-item {
       a.nav-link {
         color: $default-black-base;
