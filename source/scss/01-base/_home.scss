@@ -7,6 +7,16 @@
     display: none;
 }
 
+.home-description {
+        color: $dark-prim-base;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 900;
+        padding: 0px 32px 0px 24px;
+        border-left: 4px solid darken($light-prim-base, 10%);
+
+}
+
 .home-subtitle {
     font-weight: 500;
     margin-top: 1rem;
