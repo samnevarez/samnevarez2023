@@ -42,6 +42,10 @@
         // position: relative;
     }
 
+    .header-bg {
+        margin-top: 56px;
+    }
+
     .profile-mobile-image-container {
         display: flex;
         flex:.1;
@@ -58,8 +62,8 @@
         img {
             align-items: center;
             object-fit: contain;
-            min-height: 80px;
-            max-height: 96px;
+            min-height: 96px;
+            max-height: 120px;
             margin-right: 8px;
         }
 
