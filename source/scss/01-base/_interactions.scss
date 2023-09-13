@@ -1,8 +1,10 @@
 // Button styles
 
 .btn {
+  color: darken($light-prim-base, 15%);
   padding: 1rem;
   font-family: $secondary-font;
+  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -21,7 +23,7 @@
   text-decoration: none;
 
   &:hover {
-    color: $white;
+    color: $light-prim-base;
     box-shadow: 0 16px 12px -12px rgba(0, 0, 0, 0.3) !important;
     transform: translateY(-2px);
     transition: all .25s ease-in-out;

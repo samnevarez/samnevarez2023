@@ -37,9 +37,10 @@
   }
 
   .navbar-nav {
-    font-family: $secondary-font;
+    font-family: $tertiary-font;
     font-size: 16px;
-    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
 
     li.nav-item {
       a.nav-link {

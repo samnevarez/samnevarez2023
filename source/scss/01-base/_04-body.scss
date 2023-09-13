@@ -8,35 +8,37 @@ body {
   }
 
   p {
-    font-family: $secondary-font;
+    font-family: $tertiary-font;
+    font-weight: 900;
     font-size: 18px;
-    font-weight: 300;
-    line-height: 1.75rem;
+    line-height: 32px;
     }
 
   .sub-paragraph {
-    font-family: $secondary-font;
+    font-family: $tertiary-font;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5rem;
   }
   
   h1, h2, h3, h4, h5, h6 {
+    color: $default-black-base;
     font-family: $primary-font;
-    font-weight: 200;
     text-transform: uppercase;
   }
   
   h1 {
+    font-weight: 800;
     font-size: 4rem;
-    line-height: 4.25rem;
+    line-height: 3.5rem;
   }
 
-  .titleName {
-    letter-spacing: 1px;
-  }
+  // .titleName {
+  //   letter-spacing: 1px;
+  // }
   
   h2 {
+    color: lighten($default-black-base, 10%);
     font-size: 3.25rem;
     line-height: 3.5rem;
   }
@@ -61,23 +63,12 @@ body {
     line-height: 1.25rem;
   }
 
-  // @for $i from 1 through 6 {
-  //   h#{7 - $i} {
-  //       font-family: $primary-font;
-  //       font-weight: 400;
-  //       line-height: $i * 8px + 8px;
-  //       text-transform: uppercase;
-  //   }
-  // }
+  @media screen and (max-width: 992px) {
 
-  @media screen and (max-width: 768px) {
     @for $i from 1 through 4 {
       h#{5 - $i} {
           font-size: $i * .75rem;
-          font-family: $primary-font;
-          font-weight: 400;
           line-height: $i * .75rem;
-          text-transform: uppercase;
       }
     }
   }

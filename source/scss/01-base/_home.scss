@@ -1,10 +1,23 @@
 .header-bg {
-    background: radial-gradient(at 66% 50%, $default-white-base, #e0e0e0);
+    background: radial-gradient(at 66% 50%, $default-white-base, #f4f4f4);
     z-index: 0;
 }
 
 .profile-mobile-image-container {
     display: none;
+}
+
+.home-subtitle {
+    font-weight: 500;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: $light-prim-base;
+    background-color: $default-black-base;
+    padding: 3px 8px 5px 8px;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
 }
 
 @media screen and (max-width: 992px) {
@@ -42,15 +55,18 @@
 
         .home-title {
             display: flex;
-            font-size: 2.57rem;
-            line-height: 2.57rem;
+            font-size: 2.2rem;
+            line-height: 2rem;
 
         }
 
         .home-subtitle {
-            display: flex;
-            font-size: 1.22rem;
-            line-height: 1.22rem;
+            margin-top: 4px;
+            font-size: 17px;
+            line-height: 24px;
+            padding: 1px 4px 2px 4px;
+            border-radius: 4px;
+            letter-spacing: .1px;
         }
     }
 }
