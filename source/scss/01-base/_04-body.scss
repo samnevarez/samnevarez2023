@@ -70,8 +70,8 @@ body {
 
     @for $i from 1 through 4 {
       h#{5 - $i} {
-          font-size: $i * .75rem;
-          line-height: $i * .75rem;
+          font-size: $i * .875rem;
+          line-height: $i * .875rem;
       }
     }
   }

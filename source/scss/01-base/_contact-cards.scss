@@ -9,6 +9,14 @@
     // border-left: 2px solid dark-sec-base;
     // background: linear-gradient(-45deg, var(--c1, dark-sec-base), var(--c2, dark-sec-base), var(--c1, dark-sec-base)) var(--x, 0)/ 200%;
 
+    h4 {
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 700;
+        color: lighten($default-black-base, 10%) !important;
+        font-family: $primary-font;
+    }
+
     p {
         font-size: 16px;
     }
