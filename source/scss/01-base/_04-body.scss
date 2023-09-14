@@ -39,7 +39,7 @@ body {
   // }
   
   h2 {
-    color: lighten($default-black-base, 10%);
+    color: $default-black-base;
     font-size: 3.25rem;
     line-height: 3.5rem;
   }

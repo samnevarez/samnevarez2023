@@ -39,6 +39,8 @@
       }
     }
     #mainNav.navbar-shrink .nav-link {
+      font-family: $tertiary-font;
+      font-weight: 500;
       color: $default-black-base;
       outline: none;
       border-bottom: 4px solid transparent;
