@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Search</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h3 {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        #suggestions {
+            border: 1px solid #ddd;
+            border-top: none;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        #suggestions div {
+            padding: 10px;
+            cursor: pointer;
+        }
+        #suggestions div:hover {
+            background-color: #f0f0f0;
+        }
+        .table {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .table h3 {
+            margin: 0;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        #display {
+            margin: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h5>
+        <a href="https://linktr.ee/samandjanita" class="go-back">Go Back</a>
+    </h5>
+    <h2>Type in your name to see what table you're assigned to.</h2>
+    <input type="text" id="search" placeholder="Type a name...">
+    <div id="suggestions"></div>
+    <div id="display"></div> <!-- Section to display the result -->
+    <!-- Table sections -->
+    <div class="table" id="table1">
+        <h3>Table 1</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Brian Scott</p>
+                <p>Steph Scott</p>
+                <p>Eythan Hepburn</p>
+                <p>Eli Scott</p>
+                <p>Abby Scott</p>
+            </div>
+            <div class="col-6">
+                <p>Rob McDaniel</p>
+                <p>Liz McDaniel</p>
+                <p>Levi McDaniel</p>
+                <p>Rhett McDaniel</p>
+                <p>Emery McDaniel</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table2">
+        <h3>Table 2</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Anjelica</p>
+                <p>Kayla Heli</p>
+                <p>Ana Delia Martinez</p>
+                <p>Anna Gutierrez</p>
+                <p>Melanie Gutierrez</p>
+            </div>
+            <div class="col-6">
+                <p>Julian</p>
+                <p>Jose</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table3">
+        <h3>Table 3</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Amber Waters</p>
+                <p>Wayne Waters</p>
+                <p>Alayah Waters</p>
+                <p>Aiden Waters</p>
+                <p>Linsey Grieve</p>
+            </div>
+            <div class="col-6">
+                <p>Paul Grieve</p>
+                <p>Lucy Greive</p>
+                <p>Weston Greive</p>
+                <p>Thea Greive</p>
+                <p>Noah Greive</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table4">
+        <h3>Table 4</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>David Schmitz</p>
+                <p>Rebekah Schmitz</p>
+                <p>Micah Schmitz</p>
+                <p>Jayden Scott</p>
+                <p>Jael Schmitz</p>
+            </div>
+            <div class="col-6">
+                <p>Michaela Schmitz</p>
+                <p>Anika Schmitz</p>
+                <p>Noah Schmitz</p>
+                <p>Jr Tumanuvau</p>
+                <p>Cassie Tumanuvau</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table5">
+        <h3>Table 5</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Travis Byrne</p>
+                <p>Ashly Byrne</p>
+                <p>Elijah Byrne</p>
+                <p>Makayla Byrne</p>
+                <p>Selah Byrne</p>
+            </div>
+            <div class="col-6">
+                <p>Aliyah Byrne</p>
+                <p>Annabella Byrne</p>
+                <p>Toni Macias</p>
+                <p>Cindy Macias</p>
+                <p>Boo Macias</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table6">
+        <h3>Table 6</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Juana Montes</p>
+                <p>Erica Luna</p>
+                <p>Alex</p>
+                <p>Jessie Montes</p>
+                <p>Malissa Montes</p>
+            </div>
+            <div class="col-6">
+                <p>Chris Montes</p>
+                <p>Kimberly Davis</p>
+                <p>Victoria Luna</p>
+                <p>Kamila Gallardo</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table7">
+        <h3>Table 7</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Alfonso Sr Cebrera</p>
+                <p>Lucy Cebrera</p>
+                <p>Rudy Nuñez</p>
+                <p>Frances Nuñez</p>
+                <p>Tony Silva</p>
+            </div>
+            <div class="col-6">
+                <p>Nena Garcia</p>
+                <p>Manuel Chacon</p>
+                <p>Eva Chacon</p>
+                <p>Victor Chacon</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table8">
+        <h3>Table 8</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Inacio Mestre</p>
+                <p>Tilly Mestre</p>
+                <p>Brian Messina</p>
+                <p>Laura Messina</p>
+                <p>Antonio Cossa</p>
+            </div>
+            <div class="col-6">
+                <p>Jennifer Cossa</p>
+                <p>Cristina Mestre</p>
+                <p>Salome Barradas</p>
+                <p>Christan Tabera</p>
+                <p>Nathan Tabera</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table9">
+        <h3>Table 9</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Ricardo Sr Ramirez</p>
+                <p>Adriana Ramirez</p>
+                <p>Jaden Ramirez</p>
+                <p>Dylan Ramirez</p>
+                <p>Jakob Ramirez</p>
+            </div>
+            <div class="col-6">
+                <p>Sabrina Garcia</p>
+                <p>Liam Garcia</p>
+                <p>Evan Garcia</p>
+                <p>Ally Garcia</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table10">
+        <h3>Table 10</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Jon Schmitz</p>
+                <p>Katell Schmitz</p>
+                <p>Eli Schmitz</p>
+                <p>Lucy Schmitz</p>
+                <p>Jeff McDaniel</p>
+            </div>
+            <div class="col-6">
+                <p>Bethany McDaniel</p>
+                <p>June McDaniel</p>
+                <p>Rosie McDaniel</p>
+                <p>Otto McDaniel</p>
+                <p>Ryin Benadivez</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table11">
+        <h3>Table 11</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Glenn Wears</p>
+                <p>Rita Wears</p>
+                <p>Kenny Heimann</p>
+                <p>Sharon Heimann</p>
+                <p>Norma Powell</p>
+            </div>
+            <div class="col-6">
+                <p>Lewis Powell</p>
+                <p>Rebecca Porrino</p>
+                <p>Tom Porrino</p>
+                <p>Sonia Anguiano</p>
+                <p>Lisa Daniels</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table12">
+        <h3>Table 12</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Alex Cebrera</p>
+                <p>Gionni Cebrera</p>
+                <p>Michael Cebrera</p>
+                <p>Erika Cebrera</p>
+                <p>Richard Hormozi</p>
+            </div>
+            <div class="col-6">
+                <p>Dinhora Hormozi</p>
+                <p>Nathan Hormozi</p>
+                <p>Jordan Bedley</p>
+                <p>Josh Nuñez</p>
+                <p>Cassandra Hormozi</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table13">
+        <h3>Table 13</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Steven Nuñez</p>
+                <p>Kristen Nuñez</p>
+                <p>Griffin Nuñez</p>
+                <p>Lauren Nuñez</p>
+                <p>Matt Nuñez</p>
+            </div>
+            <div class="col-6">
+                <p>Bianca Nuñez</p>
+                <p>Roman Nuñez</p>
+                <p>Aaron Nuñez</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table14">
+        <h3>Table 14</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Esau Lopez</p>
+                <p>Jasmine Lopez</p>
+                <p>Alfonso Cebrera</p>
+                <p>Emilia Cox</p>
+                <p>Alondra Ramirez</p>
+            </div>
+            <div class="col-6">
+                <p>Brittany Sharman</p>
+                <p>Ricardo Jr Ramirez</p>
+                <p>Alan Tirado</p>
+                <p>Becca Ward</p>
+                <p>Elliot Ray</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table15">
+        <h3>Table 15</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Nik Nuñez</p>
+                <p>Lily Nuñez</p>
+                <p>Abraham Nuñez</p>
+                <p>Aida Nuñez</p>
+                <p>Josh Hoffman</p>
+            </div>
+            <div class="col-6">
+                <p>Kristin Hoffman</p>
+                <p>Rosie Hoffman</p>
+                <p>Ruby Hoffman</p>
+                <p>Ivy Hoffman</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table" id="table16">
+        <h3>Table 16</h3>
+        <div class="row name-columns">
+            <div class="col-6">
+                <p>Keano Mestre</p>
+                <p>Sidney Mestre</p>
+                <p>Austin Gerwig</p>
+                <p>Amaya Bell</p>
+                <p>Nolan Zimmer</p>
+            </div>
+            <div class="col-6">
+                <p>Hannah Campo</p>
+                <p>Drew Macias</p>
+                <p>Abbie Macias</p>
+                <p>Nicole Mestre</p>
+                <p>Autumn Deanda</p>
+            </div>
+        </div>
+    </div>    
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        const tables = {
+            "Table 1": ["Brian Scott", "Steph Scott", "Eythan Hepburn", "Eli Scott", "Abby Scott", "Rob McDaniel", "Liz McDaniel", "Levi McDaniel", "Rhett McDaniel", "Emery McDaniel"],
+            "Table 2": ["Anjelica", "Kayla Heli", "Ana Delia Martinez", "Anna Gutierrez", "Melanie Gutierrez", "Julian", "Jose"],
+            "Table 3": ["Amber Waters", "Wayne Waters", "Alayah Waters", "Aiden Waters", "Linsey Grieve", "Paul Grieve", "Lucy Greive", "Weston Greive", "Thea Greive", "Noah Greive"],
+            "Table 4": ["David Schmitz", "Rebekah Schmitz", "Micah Schmitz", "Jayden Scott", "Jael Schmitz", "Michaela Schmitz", "Anika Schmitz", "Noah Schmitz", "Jr Tumanuvau", "Cassie Tumanuvau"],
+            "Table 5": ["Travis Byrne", "Ashly Byrne", "Elijah Byrne", "Makayla Byrne", "Selah Byrne", "Aliyah Byrne", "Annabella Byrne", "Toni Macias", "Cindy Macias", "Boo Macias"],
+            "Table 6": ["Juana Montes", "Erica Luna", "Alex", "Jessie Montes", "Malissa Montes", "Chris Montes", "Kimberly Davis", "Victoria Luna", "Kamila Gallardo"],
+            "Table 7": ["Alfonso Sr Cebrera", "Lucy Cebrera", "Rudy Nuñez", "Frances Nuñez", "Tony Silva", "Nena Garcia", "Manuel Chacon", "Eva Chacon", "Victor Chacon"],
+            "Table 8": ["Inacio Mestre", "Tilly Mestre", "Brian Messina", "Laura Messina", "Antonio Cossa", "Jennifer Cossa", "Cristina Mestre", "Salome Barradas", "Christan Tabera", "Nathan Tabera"],
+            "Table 9": ["Ricardo Sr Ramirez", "Adriana Ramirez", "Jaden Ramirez", "Dylan Ramirez", "Jakob Ramirez", "Sabrina Garcia", "Liam Garcia", "Evan Garcia", "Ally Garcia"],
+            "Table 10": ["Jon Schmitz", "Katell Schmitz", "Eli Schmitz", "Lucy Schmitz", "Jeff McDaniel", "Bethany McDaniel", "June McDaniel", "Rosie McDaniel", "Otto McDaniel", "Ryin Benadivez"],
+            "Table 11": ["Glenn Wears", "Rita Wears", "Kenny Heimann", "Sharon Heimann", "Norma Powell", "Lewis Powell", "Rebecca Porrino", "Tom Porrino", "Sonia Anguiano", "Lisa Daniels"],
+            "Table 12": ["Alex Cebrera", "Gionni Cebrera", "Michael Cebrera", "Erika Cebrera", "Richard Hormozi", "Dinhora Hormozi", "Nathan Hormozi", "Jordan Bedley", "Josh Nuñez", "Cassandra Hormozi"],
+            "Table 13": ["Steven Nuñez", "Kristen Nuñez", "Griffin Nuñez", "Lauren Nuñez", "Matt Nuñez", "Bianca Nuñez", "Roman Nuñez", "Aaron Nuñez"],
+            "Table 14": ["Esau Lopez", "Jasmine Lopez", "Alfonso Cebrera", "Emilia Cox", "Alondra Ramirez", "Brittany Sharman", "Ricardo Jr Ramirez", "Alan Tirado", "Becca Ward", "Elliot Ray"],
+            "Table 15": ["Nik Nuñez", "Lily Nuñez", "Abraham Nuñez", "Aida Nuñez", "Josh Hoffman", "Kristin Hoffman", "Rosie Hoffman", "Ruby Hoffman", "Ivy Hoffman"],
+            "Table 16": ["Keano Mestre", "Sidney Mestre", "Austin Gerwig", "Amaya Bell", "Nolan Zimmer", "Hannah Campo", "Drew Macias", "Abbie Macias", "Nicole Mestre", "Autumn Deanda"]
+        };
+
+        const input = document.getElementById("search");
+        const suggestions = document.getElementById("suggestions");
+        const display = document.getElementById("display");
+
+        input.addEventListener("input", () => {
+            const query = input.value.toLowerCase();
+            suggestions.innerHTML = "";
+            if (query) {
+                // Filter names based on input and display suggestions
+                Object.keys(tables).forEach(table => {
+                    tables[table].filter(name => name.toLowerCase().includes(query)).forEach(filteredName => {
+                        const suggestionItem = document.createElement("div");
+                        suggestionItem.textContent = filteredName;
+                        suggestionItem.addEventListener("click", () => {
+                            input.value = filteredName;
+                            suggestions.innerHTML = "";
+                            // Display the selected name and corresponding table
+                            display.textContent = `${filteredName}, you are seated at ${table}.`;
+                        });
+                        suggestions.appendChild(suggestionItem);
+                    });
+                });
+            } else {
+                display.textContent = "";
+            }
+        });
+    </script>
+</body>
+</html>
