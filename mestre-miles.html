@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Airline Voucher Card</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .voucher-card {
+      width: 100%;
+      max-width: 400px;
+      background-color: #fff;
+      border: 1px solid #aeaeae;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-align: center;
+    }
+    .voucher-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    .banner {
+      width: 100%;
+      height: 250px;
+      background: url('img/mestre-miles.png') center/cover no-repeat;
+    }
+    .content {
+      padding: 16px;
+    }
+    .voucher-card h1 {
+      font-size: 2.5em;
+      color: #0070FF;
+      margin: 10px 0;
+    }
+    .voucher-card h2 {
+      font-size: 1.5em;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .voucher-title {
+      font-size: 2.5em;
+      color: #222 !important;
+      margin-bottom: 10px;
+    }
+
+    .voucher-card h4 {
+      font-size: 1em;
+      color: #222;
+      margin: 5px 0;
+    }
+    .voucher-card p {
+      font-size: 1em;
+      color: #222;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .travel-partners {
+      padding: 16px;
+      font-size: 0.9em;
+      color: #222;
+    }
+    .travel-partners h4 {
+      font-size: 1em;
+      color: #0070FF;
+      margin-bottom: 10px;
+    }
+    .voucher-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+    }
+    .voucher-card li {
+      color: #0070FF;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    ul{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="voucher-card">
+    <div class="banner"></div>
+    <div class="content">
+      <h1 class="voucher-title">Merry Christmas, Nicole!</h1>
+      <h2>Your next flight is on us!</h2>
+      <h3>You have accumulated</h3>
+      <h1>122,796</h1>
+      <h3>MestreMiles® since you were born!</h3>
+
+      <div class="travel-partners">
+        <h2>Use one of our Travel Partners:</h2>
+        <ul>
+          <li>JetBlue</li>
+          <li>Southwest</li>
+          <li>United Airlines</li>
+          <li>Virgin Atlantic</li>
+        </ul>
+      </div>
+      <p>
+        Select a flight to your destination and consider it purchased and ready! 
+        You just need to click around and send us the link so we can book it through our portal! We will take care of the rest! We love you!
+      </p>
+    </div>
+  </div>
+</body>
+</html>
